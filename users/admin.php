@@ -139,30 +139,12 @@ if(!empty($_POST['settings'])){
 		$db->update('settings',1,$fields);
 	}
 
-	if($settings->folder_watch != $_POST['folder_watch']) {
-		$vts = Input::get('folder_watch');
-		$fields=array('folder_watch'=>$vts);
-		$db->update('settings',1,$fields);
-	}
 
 
-	if($settings->folder_watch_filter_rgx != $_POST['folder_watch_filter_rgx']) {
-		$vts = $_POST['folder_watch_filter_rgx'];
-		$fields=array('folder_watch_filter_rgx'=>$vts);
-		$db->update('settings',1,$fields);
-	}
 
-	if($settings->folder_watch_group_rgx != $_POST['folder_watch_group_rgx']) {
-		$vts = $_POST['folder_watch_group_rgx'];
-		$fields=array('folder_watch_group_rgx'=>$vts);
-		$db->update('settings',1,$fields);
-	}
 
-	if($settings->folder_watch_side_a_match != $_POST['folder_watch_side_a_match']) {
-		$vts = $_POST['folder_watch_side_a_match'];
-		$fields=array('folder_watch_side_a_match'=>$vts);
-		$db->update('settings',1,$fields);
-	}
+
+
 
 	if($settings->user_profile_config != $_POST['user_profile_config']) {
 		$vts = $_POST['user_profile_config'];
@@ -361,11 +343,6 @@ if(file_exists($abs_us_root.$us_url_root.'usersc/includes/admin_panels.php')){
                     <input type="text" class="form-control" name="website_url" id="website_url" value="<?=$settings->website_url?>">
                 </div>
 
-                <!-- view_timeout_seconds  -->
-                <div class="form-group">
-                    <label for="view_timeout_seconds">Job Form Timeout in Seconds</label>
-                    <input type="text" class="form-control" name="view_timeout_seconds" id="view_timeout_seconds" value="<?=$settings->view_timeout_seconds?>">
-                </div>
 
                 <!-- s3_bucket_name  -->
                 <div class="form-group">

@@ -1,6 +1,8 @@
 <?php require_once $abs_us_root.$us_url_root.'users/helpers/helpers.php'; ?>
 <?php require_once $abs_us_root.$us_url_root.'users/includes/user_spice_ver.php'; ?>
 <?php require_once $abs_us_root.$us_url_root.'pages/helpers/pages_helper.php'; ?>
+<?php require_once $abs_us_root.$us_url_root.'pages/helpers/postit_helper.php'; ?>
+
 <?php
 
 

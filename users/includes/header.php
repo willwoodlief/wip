@@ -77,13 +77,19 @@ if($settings->track_guest == 1 && $user->isLoggedIn()){
 	
 	<title><?=$settings->site_name;?></title>
 
-	<!-- Bootstrap Core CSS -->
-	<!-- AKA Primary CSS -->
-	<link href="<?=$us_url_root?><?=str_replace('../','',$settings->us_css1);?>" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	<!-- Template CSS -->
-	<!-- AKA Secondary CSS -->
-	<link href="<?=$us_url_root?><?=str_replace('../','',$settings->us_css2);?>" rel="stylesheet">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!--	<!-- Bootstrap Core CSS -->-->
+<!--	<!-- AKA Primary CSS -->-->
+<!--	<link href="--><?//=$us_url_root?><!----><?//=str_replace('../','',$settings->us_css1);?><!--" rel="stylesheet">-->
+<!---->
+<!--	<!-- Template CSS -->-->
+<!--	<!-- AKA Secondary CSS -->-->
+<!--	<link href="--><?//=$us_url_root?><!----><?//=str_replace('../','',$settings->us_css2);?><!--" rel="stylesheet">-->
 
 	<!-- Your Custom CSS Goes Here!-->
 	<link href="<?=$us_url_root?><?=str_replace('../','',$settings->us_css3);?>" rel="stylesheet">

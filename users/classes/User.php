@@ -20,6 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 $real =   realpath( dirname( __FILE__ ) );
 
 require_once $real.'/../../pages/helpers/pages_helper.php';
+require_once $real.'/../../pages/helpers/postit_helper.php';
 class User {
 	private $_db, $_data, $_sessionName, $_isLoggedIn, $_cookieName,$_roles;
 

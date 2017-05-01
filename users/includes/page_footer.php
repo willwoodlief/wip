@@ -41,7 +41,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
   <!-- jQuery -->
-  <script src="<?=$us_url_root?>users/js/jquery-2.2.4.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!--  <script src="--><?//=$us_url_root?><!--users/js/jquery-2.2.4.min.js"></script>-->
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   <!-- Bootstrap Core JavaScript -->
-  <script src="<?=$us_url_root?>users/js/bootstrap.min.js"></script>
+<!--  <script src="--><?//=$us_url_root?><!--users/js/bootstrap.min.js"></script>-->

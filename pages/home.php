@@ -5,7 +5,7 @@ require_once '../users/init.php';
 require_once $abs_us_root.$us_url_root.'users/includes/header_not_closed.php';
 ?>
 
-
+<?php require_once 'includes/postit_pre.php'; // postit css linking ?>
 <style>
     .put-page-only-styles-here {
         /* for styles for the entire site put in users/css/custom.css */
@@ -55,6 +55,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
 <?php require_once $abs_us_root.$us_url_root.'users/includes/page_footer.php'; // the final html footer copyright row + the external js calls ?>
 
 <!-- Place any per-page javascript here -->
+<?php require_once 'includes/postit_romp.php'; // postit code linking ?>
 <script>
 
 </script>

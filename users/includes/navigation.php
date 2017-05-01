@@ -61,7 +61,12 @@ $email_act=$results->email_act;
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="" href="<?=$us_url_root?>"><img class="img-responsive" src="<?=$us_url_root?>users/images/logo.png" alt="" /></a>
+            <?php if( is_postit_page()) {?>
+                <input class="btn btn-success btn-lg" id="make-new-note" type="button" value="New Note">
+            <?php } ?>
+
+
+			<a class="" href="<?=$us_url_root?>"><img class="" src="<?=$us_url_root?>users/images/logo.png" alt=""  width="50" height="50" style="display: inline-block;margin-left: 10px;"/></a>
 
 		</div>
 		<div class="collapse navbar-collapse navbar-top-menu-collapse navbar-right">

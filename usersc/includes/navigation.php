@@ -38,6 +38,13 @@
             <li><a href="<?=$us_url_root?>pages/help.php"><i class="fa fa-fw fa-question-circle"></i> Help </a></li> <!-- Common for Hamburger and Regular menus link -->
         <?php } ?>
 
+
+        <?php if ($user->roles() && in_array("User", $user->roles())) { ?>
+            <li><a  id="save-status-holder"onclick="return false;" >
+                    <span id="save-indicator" class="fa fa-fw fa-floppy-o save-status-clean" > </span>
+                </a></li> <!-- save indicator light -->
+        <?php } ?>
+
 <!-- Custom menus. Uncomment or copy/paste to use
 		<li class="dropdown"><a class="dropdown-toggle" href="" data-toggle="dropdown"><i class="fa fa-wrench"></i> Custom 1 <b class="caret"></b></a>
 			<ul class="dropdown-menu">

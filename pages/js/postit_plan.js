@@ -139,7 +139,7 @@ $(function() {
     $('#make-new-note').on('click', function (e) {
         $.PostItAll.new({
             id : note_id ++,  //PIApostit_2
-            content :"<p style='text-align:center'>Hello <b>world</b></p>",
+            content :"",
             style : {
                 tresd : true,
                 fontfamily      : 'verdana',

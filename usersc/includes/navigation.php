@@ -8,6 +8,14 @@
             <li><a href="<?=$us_url_root?>pages/home.php"><i class="fa fa-fw fa-home"></i> Home </a></li> <!-- Common for Hamburger and Regular menus link -->
         <?php } ?>
 
+
+        <?php if ($user->roles() && in_array("User", $user->roles())) { ?>
+            <li><a href="<?=$us_url_root?>pages/veterans.php"><i class="fa fa-fw fa-fighter-jet"></i> Veterans </a></li> <!-- Common for Hamburger and Regular menus link -->
+        <?php } ?>
+
+
+
+
         <?php if ($user->roles() && in_array("User", $user->roles())) { ?>
             <li><a href="<?=$us_url_root?>pages/about_us.php"><i class="fa fa-fw fa-info-circle"></i> About Us </a></li> <!-- Common for Hamburger and Regular menus link -->
         <?php } ?>

@@ -31,7 +31,7 @@ class AddVeteranPage extends AbstractMigration
 
     public function up()
     {
-        $singleRow =  ['id' => $this->pageId, 'page' => 'pages/save_notes.php','private'=>1];
+        $singleRow =  ['id' => $this->pageId, 'page' => 'pages/veterans.php','private'=>1];
         $table = $this->table('pages');
         $table->insert($singleRow);
         $table->saveData();

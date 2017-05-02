@@ -33,7 +33,7 @@ function get_page_name($uri = null){
 function is_postit_page(){
     $page = get_page_name();
     $pages = ['pages/postit.php','pages/home.php','pages/about_us.php','pages/partner_program.php','pages/solutions.php','pages/carriers.php',
-        'pages/contact_us.php','pages/postit.php','pages/postit.php'];
+        'pages/contact_us.php','pages/postit.php','pages/postit.php','pages/veterans.php'];
 
     if (in_array($page, $pages)) {
         return true;

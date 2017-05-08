@@ -10,7 +10,7 @@
 
 
         <?php if ($user->roles() && in_array("User", $user->roles())) { ?>
-            <li><a href="<?=$us_url_root?>pages/veterans.php"><i class="fa fa-fw fa-fighter-jet"></i> Veterans </a></li> <!-- Common for Hamburger and Regular menus link -->
+            <li><a href="<?=$us_url_root?>pages/veterans.php"><i class="fa fa-fw fa-fighter-jet"></i> Veteran Owed </a></li> <!-- Common for Hamburger and Regular menus link -->
         <?php } ?>
 
 
@@ -25,8 +25,16 @@
         <?php } ?>
 
         <?php if ($user->roles() && in_array("User", $user->roles())) { ?>
-            <li><a href="<?=$us_url_root?>pages/solutions.php"><i class="fa fa-fw fa-phone"></i> Solutions </a></li> <!-- Common for Hamburger and Regular menus link -->
+            <li><a href="<?=$us_url_root?>pages/solutions.php"><i class="fa fa-fw fa-phone"></i> Custom Solutions </a></li> <!-- Common for Hamburger and Regular menus link -->
         <?php } ?>
+
+
+        <?php if ($user->roles() && in_array("User", $user->roles())) { ?>
+            <li><a href="<?=$us_url_root?>pages/join_our_family.php"><i class="fa fa-fw fa-phone"></i> Join Our Family </a></li> <!-- Common for Hamburger and Regular menus link -->
+        <?php } ?>
+
+
+
 
 
         <?php if ($user->roles() && in_array("User", $user->roles())) { ?>

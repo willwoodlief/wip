@@ -41,19 +41,30 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                 just put everything in the container fluid div
                  you can delete the row class if you want
                  -->
-                <div>
-                    (list)
-                    Network Security Assessment
-                    Network Security Services
-                    MPLS
-                    SDWAN
-                    Point to multipoint Connectivity
-                    Network on Demand
-                    Internet on Demand
-                    VoIP with a SIP, PRI, CAS or POTs Handoff
-                    WAN and LAN
+
+                <div class="col-md-offset-2 col-md-4 panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">List of stuff &nbsp; &nbsp; &nbsp; <mark><small>Found it on a note</small></mark></div>
+                    <div class="panel-body">
+
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">Network Security Assessment <span class="badge">1</span></a>
+                            <a href="#" class="list-group-item">Network Security Services </a>
+                            <a href="#" class="list-group-item">MPLS </a>
+                            <a href="#" class="list-group-item">SDWAN </a>
+                            <a href="#" class="list-group-item">Point to multipoint Connectivity </a>
+                            <a href="#" class="list-group-item">Network on Demand </a>
+                            <a href="#" class="list-group-item">Internet on Demand </a>
+                            <a href="#" class="list-group-item">VoIP with a SIP, PRI, CAS or POTs Handoff </a>
+                            <a href="#" class="list-group-item">WAN and LAN </a>
+
+                        </div>
+                    </div>
                 </div>
-                <img alt="Customized Solutions" src="http://www.olympusattelecom.com/wp-content/uploads/2013/08/OT_EndToEndSolutions_Banner.jpg">
+
+                <div class="col-md-4" >
+                    <img alt="Customized Solutions" class="img-rounded img-responsive" src="http://www.olympusattelecom.com/wp-content/uploads/2013/08/OT_EndToEndSolutions_Banner.jpg">
+                </div>
             </div>
 
 

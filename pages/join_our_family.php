@@ -42,33 +42,42 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
              you can delete the row class if you want
              -->
 
+
+            <div class="col-md-offset-2 col-md-4 panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading"> Join Our Family</div>
+                <div class="panel-body">
+                    Current availably: Houston Texas
+
+                    We are currently seeking Sales Consultants that will flourish in a challenging fast paced competitive environment.
+
+                    Area of Responsibilities: Foot and Phone Canvassing, qualifying prospects, developing opportunities and following up. Sales Consultants will“NOT”be involved in the installation and billing process! SCs will receive detailed training on the products, services, and processes. Being self-starter that is focus on sales excellence is essential to a SEs success.
+
+                    A Sales Consultant will have the following qualities:
+                    <ul>
+                    <li>      AT&T Wireline Experience is wanted but not required</li>
+
+                        <li>       Self-Starter</li>
+
+                        <li>      MAC or PC Proficiency including Microsoft Office is required</li>
+
+                        <li>       Strong Work Ethic</li>
+
+                        <li>       Business Acumen</li>
+
+                        <li>       Positive Attitude</li>
+
+                        <li>       Proficiency in Foot and Phone Canvassing</li>
+                    </ul>
+                    DSTORM is focused on creating a diverse environment where everyone can thrive! DSTORM is an equal Opportunity Employer.
+
+                    Please email your resume to: <a href="mailto:thomasmarks@dstormconsulting.com">thomasmarks@dstormconsulting.com</a>
+                </div>
+            </div>
+
         <div>
-            Join Our Family
-            Current availably: Houston Texas
 
-            We are currently seeking Sales Consultants that will flourish in a challenging fast paced competitive environment.
 
-            Area of Responsibilities: Foot and Phone Canvassing, qualifying prospects, developing opportunities and following up. Sales Consultants will“NOT”be involved in the installation and billing process! SCs will receive detailed training on the products, services, and processes. Being self-starter that is focus on sales excellence is essential to a SEs success.
-
-            A Sales Consultant will have the following qualities:
-
-            ·       AT&T Wireline Experience is wanted but not required
-
-            ·       Self-Starter
-
-            ·       MAC or PC Proficiency including Microsoft Office is required
-
-            ·       Strong Work Ethic
-
-            ·       Business Acumen
-
-            ·       Positive Attitude
-
-            ·       Proficiency in Foot and Phone Canvassing
-
-            DSTORM is focused on creating a diverse environment where everyone can thrive! DSTORM is an equal Opportunity Employer.
-
-            Please email your resume to: thomasmarks@dstormconsulting.com
 
 
         </div>

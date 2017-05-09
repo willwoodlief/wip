@@ -41,14 +41,23 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                 just put everything in the container fluid div
                  you can delete the row class if you want
                  -->
-                <div>Maybe the AT&T Solutions Provider Logo I provided</div>
+                <div></div>
+
+
+                <div class="col-md-offset-2 col-md-4 panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading"> Content so far</div>
+                    <div class="panel-body">
+                        DSTORM Consulting is a carrier agnostic company.
+
+
+                        As a result of being a true partner DSTORM will look at all possibilities including but not limited to AT&T for our Partners.
+
+                    </div>
+                </div>
 
                 <div>
-                    DSTORM Consulting is a carrier agnostic company.
-
-
-                    As a result of being a true partner DSTORM will look at all possibilities including but not limited to AT&T for our Partners.
-                </div>
+                                   </div>
 
             </div>
 

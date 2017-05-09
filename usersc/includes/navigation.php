@@ -17,7 +17,7 @@
 
 
         <?php if ($user->roles() && in_array("User", $user->roles())) { ?>
-            <li><a href="<?=$us_url_root?>pages/about_us.php"><i class="fa fa-fw fa-info-circle"></i> About Us </a></li> <!-- Common for Hamburger and Regular menus link -->
+            <li><a href="<?=$us_url_root?>pages/about_us.php"><i class="fa fa-fw fa-info-circle"></i> Family </a></li> <!-- Common for Hamburger and Regular menus link -->
         <?php } ?>
 
         <?php if ($user->roles() && in_array("User", $user->roles())) { ?>

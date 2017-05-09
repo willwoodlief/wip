@@ -48,7 +48,11 @@ if (isset($_POST['bb_notes']) && sizeof($_POST['bb_notes'])) {
 
     printOkJSONAndDie('notes are saved ');
 } else {
-    printErrorJSONAndDie('No notes recieved');
+    $userid = $user->data()->id;
+    $page_name =  $_POST['page_name'];
+    $batch_id = create_note_batch($userid,$page_name);
+    //insert_note($batch_id,'none',null);
+    printOkJSONAndDie('No notes recieved');
 }
 
 

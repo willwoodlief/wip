@@ -36,100 +36,134 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
             <!-- Page Heading -->
             <h1>Partner Program</h1>
 
-            <div class="row">
+            <div class="row" style="margin-left: 1em">
                 <!-- Dont need to have to use bootstrap classes either
                 just put everything in the container fluid div
                  you can delete the row class if you want
                  -->
 
-             <div>
 
-                 We are a veteran owned organization.
+                <div class=" col-md-4 panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">Vendor Referral Program</div>
+                    <div class="panel-body">
 
-                 We are truly a partner and absolutely NOT just another vender.
+                        Why become a DSTORM Consulting Vendor?
 
-                 We have project managers on staff to manage your installation and billing needs no matter how small.
-
-                 Our vendor referral program is second to none.
-
-                 We can dedicate someone to work in your office once a week or more if need be.
-
-                 We have over 20 years experience in telecommunications.
-
-                 We are an authorized agent for AT&T.
-
-                 We will do whatever it takes to earn your business and ensure you are extremely satisfied before, during, and after the installation.
-             </div>
-
-             <div>
-                 The AT&T Alliance Channel Solution Provider Showcase is a web syndication tool that enables Solution Providers (MSP, SP, ASP) to embed AT&T content that automatically updates on their website. The tool is designed to provide Solution Providers’ customers with timely, compelling and rich web content that reinforces their expertise and the power of AT&T solutions.
+                        Our vendor referral program is second to none.
 
 
-                 http://demos.ziftsolutions.com/sample/InnovativeTechnology/?a=att&wid=ff8081815493e907015495df2dd20a78
-             </div>
-
-             <div>
-                 Vendor Referral Program
-                 Why become a DSTORM Consulting Vendor?
-
-                 Our vendor referral program is second to none.
+                        We have service managers on staff to manage installation and billing needs regardless of how small.
 
 
-                 We have service managers on staff to manage installation and billing needs regardless of how small.
+                        Your customers will be VERY SATISFIED working with DSTORM.
 
 
-                 Your customers will be VERY SATISFIED working with DSTORM.
+                        We can dedicate someone to work in your office once a week or more if need be.
 
 
-                 We can dedicate someone to work in your office once a week or more if need be.
+                        Extensive telecommunications experience.
 
 
-                 Extensive telecommunications experience.
+                        We are an authorized agent for AT&T.
 
 
-                 We are an authorized agent for AT&T.
+                        We will do whatever it takes to earn your business and ensure you and your customer are extremely satisfied before, during, and after the installation.
+
+                        Request more information
+
+                        Please call at 281-407-7407 or fill out the information below and someone will contact you.
+                        <form>
+                            <div class="form-group">
+                                <label for="inputEmail">First and Last Name</label>
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword">Your Email Address</label>
+                                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="password" class="form-control" id="subject" placeholder="Password">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Subject</label>
+                                <textarea class="form-control custom-control" id="message" rows="3" style="resize:none"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
 
 
-                 We will do whatever it takes to earn your business and ensure you and your customer are extremely satisfied before, during, and after the installation.
+                    </div>
+                </div>
+                <div class="col-md-8">
+                <div class="col-md-offset-1 col-md-5 panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading"> We are a veteran owned organization</div>
+                    <div class="panel-body">
 
-                 Request more information
+                        We are truly a partner and absolutely NOT just another vender.
 
-                 Please call at 281-407-7407 or fill out the information below and someone will contact you.
+                        We have project managers on staff to manage your installation and billing needs no matter how small.
 
+                        Our vendor referral program is second to none.
 
+                        We can dedicate someone to work in your office once a week or more if need be.
 
-                 First and Last Name
+                        We have over 20 years experience in telecommunications.
 
+                        We are an authorized agent for AT&T.
 
-                 Your Email Address
-
-
-                 Subject
-
-
-                 Your Message
-
+                        We will do whatever it takes to earn your business and ensure you are extremely satisfied before, during, and after the installation.
+                    </div>
+                </div>
 
 
-             </div>
 
-             <div>
-                 DSTORM PARTNERSHIP
 
-                 Our vendor referral program is second to none.
 
-                 We have service managers on staff to manage installation and billing needs regardless of how small.
+                <div class="col-md-offset-1 col-md-5 panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading"> DSTORM PARTNERSHIP</div>
+                    <div class="panel-body">
 
-                 Your customers will be VERY SATISFIED working with DSTORM.
+                        Our vendor referral program is second to none.
 
-                 We can dedicate someone to work in your office once a week or more if need be.
+                        We have service managers on staff to manage installation and billing needs regardless of how small.
 
-                 We have over 20 years experience in telecommunications.
+                        Your customers will be VERY SATISFIED working with DSTORM.
 
-                 We are an authorized agent for AT&T.
+                        We can dedicate someone to work in your office once a week or more if need be.
 
-                 We will do whatever it takes to earn your business and ensure you and your customerare extremely satisfied before, during, and after the installation.
-             </div>
+                        We have over 20 years experience in telecommunications.
+
+                        We are an authorized agent for AT&T.
+
+                        We will do whatever it takes to earn your business and ensure you and your customerare extremely satisfied before, during, and after the installation.
+                    </div>
+                </div>
+
+
+                <div class="col-md-offset-1 col-md-11 panel panel-primary">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading"> The AT&T Alliance Channel Solution Provider Showcase</div>
+                    <div class="panel-body">
+
+                        The AT&T Alliance Channel Solution Provider Showcase is a web syndication tool that enables Solution Providers (MSP, SP, ASP) to embed AT&T content that automatically updates on their website. The tool is designed to provide Solution Providers’ customers with timely, compelling and rich web content that reinforces their expertise and the power of AT&T solutions.
+
+                        <a href="http://demos.ziftsolutions.com/sample/InnovativeTechnology/?a=att&wid=ff8081815493e907015495df2dd20a78">
+                            Click here for demo
+                        </a>
+                    </div>
+                </div>
+                </div>
+
+
+
+
+
             </div>
 
 

@@ -33,7 +33,7 @@ function save_notes() {
              deep_copy.onChange =  null; //Triggered on each change
              what[deep_copy.full_id] = deep_copy;
          }
-         $.post( "save_notes.php", { bb_notes: what },null,"json" )
+         $.post( "save_notes.php", { bb_notes: what ,page_name: page_name},null,"json" )
             .done(
                  function( data ) {
                      //console.log(data.status);

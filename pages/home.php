@@ -252,6 +252,11 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
     <div class="container">
 
         <h1>Home : testing the current theme</h1>
+        <p>
+            Please try out the themes under the <a href="https://dstormconsulting.com/wip/users/admin.php" target="_blank">admin section</a>
+            It will be on the right lower down under <br>
+            <b>Primary Color Scheme (Loaded 1st)</b>  you just need to change that one and press the button then refresh the other page
+        </p>
         <!-- Navbar
         ================================================== -->
         <div class="bs-docs-section clearfix" style="margin-top: 0">

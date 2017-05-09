@@ -89,3 +89,9 @@ if($settings->track_guest == 1 && $user->isLoggedIn()){
 	<!-- Custom Fonts -->
 	<link href="<?=$us_url_root?>users/fonts/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <link href="<?=$us_url_root?>users/css/plugins/animate.css" rel="stylesheet" type="text/css">
+
+    <link href="<?=$us_url_root?>users/css/plugins/imagehover.css" rel="stylesheet" type="text/css">
+
+
+

@@ -83,19 +83,24 @@ if($settings->track_guest == 1 && $user->isLoggedIn()){
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<!--	<!-- Bootstrap Core CSS -->-->
-<!--	<!-- AKA Primary CSS -->-->
-<!--	<link href="--><?//=$us_url_root?><!----><?//=str_replace('../','',$settings->us_css1);?><!--" rel="stylesheet">-->
-<!---->
-<!--	<!-- Template CSS -->-->
-<!--	<!-- AKA Secondary CSS -->-->
-<!--	<link href="--><?//=$us_url_root?><!----><?//=str_replace('../','',$settings->us_css2);?><!--" rel="stylesheet">-->
+    <!-- Bootstrap Core CSS -->
+    <!-- AKA Primary CSS -->
+    <link href="<?=$us_url_root?><?=str_replace('../','',$settings->us_css1);?>" rel="stylesheet">
+
+    <!-- Template CSS -->
+    <!-- AKA Secondary CSS -->
+    <link href="<?=$us_url_root?><?=str_replace('../','',$settings->us_css2);?>" rel="stylesheet">
+
 
 	<!-- Your Custom CSS Goes Here!-->
 	<link href="<?=$us_url_root?><?=str_replace('../','',$settings->us_css3);?>" rel="stylesheet">
 
 	<!-- Custom Fonts -->
 	<link href="<?=$us_url_root?>users/fonts/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="<?=$us_url_root?>users/css/plugins/animate.css" rel="stylesheet" type="text/css">
+
+    <link href="<?=$us_url_root?>users/css/plugins/imagehover.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>

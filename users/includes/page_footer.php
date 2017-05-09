@@ -49,3 +49,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
   <!-- Bootstrap Core JavaScript -->
 <!--  <script src="--><?//=$us_url_root?><!--users/js/bootstrap.min.js"></script>-->
+
+<script src="<?=$us_url_root?>users/js/nudge_header.js"></script>
+

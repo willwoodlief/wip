@@ -41,6 +41,15 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                 just put everything in the container fluid div
                  you can delete the row class if you want
                  -->
+                <div>
+                    THOMAS MARKS, president and CEO of the Dstorm Consulting Inc., is a United States Air Force Veteran serving from 1990 to 1994.
+
+                    He was a Firefighter who specialized in Paramedic Rescue, Aviation Crash Emergency and Structural First Responser.
+
+                    His Air Force assignments included Yokota Air Base Japan from 1990 to 1992.  While at Yokota Marks was deployed to Operation Desert Storm, King Khalid Air Base Khamis Mushait, Saudi Arabia.  He was also stationed at K. I. Sawyer Air Force Base from 1992 to 1994.
+
+                    Thomas Marks was Honorably Discharged from the United States Air Force June 6, 1994.
+                </div>
             </div>
 
 

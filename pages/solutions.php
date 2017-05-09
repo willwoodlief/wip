@@ -41,6 +41,19 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                 just put everything in the container fluid div
                  you can delete the row class if you want
                  -->
+                <div>
+                    (list)
+                    Network Security Assessment
+                    Network Security Services
+                    MPLS
+                    SDWAN
+                    Point to multipoint Connectivity
+                    Network on Demand
+                    Internet on Demand
+                    VoIP with a SIP, PRI, CAS or POTs Handoff
+                    WAN and LAN
+                </div>
+                <img alt="Customized Solutions" src="http://www.olympusattelecom.com/wp-content/uploads/2013/08/OT_EndToEndSolutions_Banner.jpg">
             </div>
 
 

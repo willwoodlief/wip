@@ -21,7 +21,7 @@
         <?php } ?>
 
         <?php if ($user->roles() && in_array("User", $user->roles())) { ?>
-            <li><a href="<?=$us_url_root?>pages/partner_program.php"><i class="fa fa-fw fa-users"></i> Partner Program </a></li> <!-- Common for Hamburger and Regular menus link -->
+            <li><a href="<?=$us_url_root?>pages/partner_program.php"><i class="fa fa-fw fa-users"></i> Vendor Referral Program </a></li> <!-- Common for Hamburger and Regular menus link -->
         <?php } ?>
 
         <?php if ($user->roles() && in_array("User", $user->roles())) { ?>

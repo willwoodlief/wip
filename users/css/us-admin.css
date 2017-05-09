@@ -6,6 +6,7 @@ body {
     line-height: 1.42857143;
     color: #333;
     background-color: #ededed;
+    margin-top: 50px;
 }
 
 footer span.copywrite-text {
@@ -17,9 +18,17 @@ span.bold-span {
 }
 
 #page-wrapper {
-margin-top: 140px;
+
  min-height: 70vh;
 	}
+
+
+
+.container {
+    width:90%;
+}
+
+
 
 /* Fixed tables */
 .allutable { } /* max-height: 600px;overflow-y: scroll; */

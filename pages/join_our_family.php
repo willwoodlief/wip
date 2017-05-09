@@ -41,6 +41,37 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
             just put everything in the container fluid div
              you can delete the row class if you want
              -->
+
+        <div>
+            Join Our Family
+            Current availably: Houston Texas
+
+            We are currently seeking Sales Consultants that will flourish in a challenging fast paced competitive environment.
+
+            Area of Responsibilities: Foot and Phone Canvassing, qualifying prospects, developing opportunities and following up. Sales Consultants will“NOT”be involved in the installation and billing process! SCs will receive detailed training on the products, services, and processes. Being self-starter that is focus on sales excellence is essential to a SEs success.
+
+            A Sales Consultant will have the following qualities:
+
+            ·       AT&T Wireline Experience is wanted but not required
+
+            ·       Self-Starter
+
+            ·       MAC or PC Proficiency including Microsoft Office is required
+
+            ·       Strong Work Ethic
+
+            ·       Business Acumen
+
+            ·       Positive Attitude
+
+            ·       Proficiency in Foot and Phone Canvassing
+
+            DSTORM is focused on creating a diverse environment where everyone can thrive! DSTORM is an equal Opportunity Employer.
+
+            Please email your resume to: thomasmarks@dstormconsulting.com
+
+
+        </div>
         </div>
 
 

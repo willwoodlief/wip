@@ -41,6 +41,9 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                 just put everything in the container fluid div
                  you can delete the row class if you want
                  -->
+                <div>
+                    Contact Us Form
+                </div>
             </div>
 
 

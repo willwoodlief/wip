@@ -50,8 +50,8 @@ $results = $query->first();
 $email_act=$results->email_act;
 
 ?>
-<!-- Navigation -->
-<div class="main-header navbar navbar-fixed-top navbar-inverse" role="navigation">
+<!-- Navigation  navbar-inverse-->
+<div class="main-header navbar navbar-fixed-top navbar-default" role="navigation">
 	<div class="container">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header ">
@@ -62,7 +62,7 @@ $email_act=$results->email_act;
 				<span class="icon-bar"></span>
 			</button>
             <?php if( is_postit_page()) {?>
-                <input class="btn btn-success btn-lg" id="make-new-note" type="button" value="New Note">
+                <input class="btn btn-primary btn-lg" id="make-new-note" type="button" value="New Note">
             <?php } ?>
 
 

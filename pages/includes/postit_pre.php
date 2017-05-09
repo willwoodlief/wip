@@ -7,32 +7,33 @@
 <style>
     span.save-status-clean {
         color: #00e600 !important;
-        width: 30px;
+        /*width: 30px;*/
         height: 30px;
+        display: inline;
     }
 
     span.save-status-dirty {
         color: #7b67e6 !important;
-        width: 30px;
+        /*width: 30px;*/
         height: 30px;
     }
 
     span.save-status-saving {
         color: #e6d64d !important;
-        width: 30px;
+        /*width: 30px;*/
         height: 30px;
         font-size: 20px;
     }
 
     span.save-status-error {
         color: #e6181c !important;
-        width: 30px;
+        /*width: 30px;*/
         height: 30px;
     }
 
     #save-status-holder {
-        width:30px;
-
+        /*width:30px;*/
+        text-align: center;
     }
 
     .trumbowyg-modal-box label input {

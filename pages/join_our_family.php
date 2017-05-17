@@ -34,53 +34,86 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
         <!-- Jquery is already loaded into this page, if you need it -->
 
         <!-- Page Heading -->
-        <h1>Join Our Family</h1>
+
 
         <div class="row">
             <!-- Dont need to have to use bootstrap classes either
             just put everything in the container fluid div
              you can delete the row class if you want
              -->
+            <h1>Current Availably: <span style="font-size: smaller"> JOIN THE DSTORM FAMILY</span></h1>
 
-
-            <div class="col-md-offset-2 col-md-4 panel panel-default">
+            <div class="col-md-offset-1 col-md-5 panel panel-default">
                 <!-- Default panel contents -->
-                <div class="panel-heading"> Join Our Family</div>
+                <div class="panel-heading"><h3>Sales Consultants</h3></div>
                 <div class="panel-body">
-                    Current availably: Houston Texas
+                    <div class="alert  alert-success">
+                        <strong>Houston Texas</strong>
+                    </div>
 
+                    <p>
                     We are currently seeking Sales Consultants that will flourish in a challenging fast paced competitive environment.
+                    Area of Responsibilities: Foot and Phone Canvassing, qualifying prospects,
+                    developing opportunities and following up. Sales Consultants will “NOT” be involved in the installation
+                    and billing process! SCs will receive detailed training on the products, services, and processes.
+                    </p>
 
-                    Area of Responsibilities: Foot and Phone Canvassing, qualifying prospects, developing opportunities and following up. Sales Consultants will“NOT”be involved in the installation and billing process! SCs will receive detailed training on the products, services, and processes. Being self-starter that is focus on sales excellence is essential to a SEs success.
+                    <p>
+                    Being a self-starter that is focused on sales excellence is essential to a SCs success.
+                    A SC will have the following qualities:
 
-                    A Sales Consultant will have the following qualities:
+                    </p>
+
                     <ul>
-                    <li>      AT&T Wireline Experience is wanted but not required</li>
-
-                        <li>       Self-Starter</li>
-
-                        <li>      MAC or PC Proficiency including Microsoft Office is required</li>
-
-                        <li>       Strong Work Ethic</li>
-
-                        <li>       Business Acumen</li>
-
-                        <li>       Positive Attitude</li>
-
-                        <li>       Proficiency in Foot and Phone Canvassing</li>
+                        <li>AT&T Wireline and mobility Experience is preferred but not required</li>
+                        <li>Self-Starter</li>
+                        <li>PC Proficiency including Microsoft Office is required</li>
+                        <li>Strong Work Ethic</li>
+                        <li>Business Acumen</li>
+                        <li>Positive Attitude</li>
+                        <li>Proficiency in Foot and Phone Canvassing</li>
                     </ul>
-                    DSTORM is focused on creating a diverse environment where everyone can thrive! DSTORM is an equal Opportunity Employer.
-
+                    DSTORM is focused on creating a diverse environment where everyone can thrive! DSTORM is an equal Opportunity Employer. <br>
                     Please email your resume to: <a href="mailto:thomasmarks@dstormconsulting.com">thomasmarks@dstormconsulting.com</a>
+
                 </div>
             </div>
 
-        <div>
 
 
+            <div class="col-md-offset-1 col-md-5 panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading"><h3>Operations Manager</h3></div>
+                <div class="panel-body">
+                    <div class="alert  alert-success">
+                        <strong>Houston Texas</strong>
+                    </div>
+                    <p>
+                    We are currently seeking an Operations Manager that will flourish in a challenging fast paced competitive environment.
+                    </p>
+                    <p>
+                    Area of Responsibilities: Assist with creating contracts, manage orders from start to installation,
+                    and resolve billing issues.
+                    </p>
+                    <p>
+                    Being self-starter that is focus on sales support is essential to a OMs success. An OM will have the following qualities:
+                    </p>
+                    <ul>
+                        <li>AT&T Wireline and mobility Experience is preferred but not required</li>
+                        <li>Self-Starter</li>
+                        <li>PC Proficiency including Microsoft Office is required</li>
+                        <li>Strong Work Ethic</li>
+                        <li>Business Acumen</li>
+                        <li>Positive Attitude</li>
+                        <li>Strong Organizational Skills</li>
+                    </ul>
+                    DSTORM is focused on creating a diverse environment where everyone can thrive! DSTORM is an equal Opportunity Employer. <br>
+                    Please email your resume to: <a href="mailto:thomasmarks@dstormconsulting.com">thomasmarks@dstormconsulting.com</a>
+
+                </div>
+            </div>
 
 
-        </div>
         </div>
 
 

@@ -34,7 +34,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
         <!-- Jquery is already loaded into this page, if you need it -->
 
             <!-- Page Heading -->
-            <h1>Veterans</h1>
+            <h1>Veteran Owned</h1>
 
             <div class="row">
                 <!-- Dont need to have to use bootstrap classes either
@@ -45,13 +45,13 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                     <!-- Default panel contents -->
                     <div class="panel-heading">Military Service</div>
                     <div class="panel-body">
-                    THOMAS MARKS, president and CEO of the Dstorm Consulting Inc., is a United States Air Force Veteran serving from 1990 to 1994.
+                        HOMAS MARKS, president and CEO of the Dstorm Consulting Inc., is a United States Air Force Veteran serving from 1990 to 1994.
 
-                    He was a Firefighter who specialized in Paramedic Rescue, Aviation Crash Emergency and Structural First Responser.
+                        He was a Firefighter who specialized in Paramedic Rescue, Aviation Crash Emergency and Structural First Responser.
 
-                    His Air Force assignments included Yokota Air Base Japan from 1990 to 1992.  While at Yokota Marks was deployed to Operation Desert Storm, King Khalid Air Base Khamis Mushait, Saudi Arabia.  He was also stationed at K. I. Sawyer Air Force Base from 1992 to 1994.
+                        His Air Force assignments included Yokota Air Base Japan from 1990 to 1992.  While at Yokota Marks was deployed to Operation Desert Storm, King Khalid Air Base Khamis Mushait, Saudi Arabia.  He was also stationed at K. I. Sawyer Air Force Base from 1992 to 1994. While at K. I. Sawyer Marks was deployed to Operation Desert Shield, Al Dhabi Air Base Mussafah, UAE 20 miles from Abu Dhabi, UAE.
 
-                    Thomas Marks was Honorably Discharged from the United States Air Force June 6, 1994.
+                        Thomas Marks was Honorably Discharged from the United States Air Force June 6, 1994.
                     </div>
                 </div>
             </div>

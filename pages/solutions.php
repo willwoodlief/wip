@@ -34,7 +34,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
         <!-- Jquery is already loaded into this page, if you need it -->
 
             <!-- Page Heading -->
-            <h1>Solutions</h1>
+
 
             <div class="row">
                 <!-- Dont need to have to use bootstrap classes either
@@ -42,28 +42,32 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                  you can delete the row class if you want
                  -->
 
-                <div class="col-md-offset-2 col-md-4 panel panel-default">
-                    <!-- Default panel contents -->
-                    <div class="panel-heading">List of stuff &nbsp; &nbsp; &nbsp; <mark><small>Found it on a note</small></mark></div>
-                    <div class="panel-body">
+                <div class="col-md-offset-2 col-md-4 p">
+                    <div class="panel panel-default">
+                        <!-- Default panel contents -->
+                        <div class="panel-heading">Our Services</div>
+                        <div class="panel-body">
 
-                        <div class="list-group">
-                            <a href="#" class="list-group-item">Network Security Assessment <span class="badge">1</span></a>
-                            <a href="#" class="list-group-item">Network Security Services </a>
-                            <a href="#" class="list-group-item">MPLS </a>
-                            <a href="#" class="list-group-item">SDWAN </a>
-                            <a href="#" class="list-group-item">Point to multipoint Connectivity </a>
-                            <a href="#" class="list-group-item">Network on Demand </a>
-                            <a href="#" class="list-group-item">Internet on Demand </a>
-                            <a href="#" class="list-group-item">VoIP with a SIP, PRI, CAS or POTs Handoff </a>
-                            <a href="#" class="list-group-item">WAN and LAN </a>
+                            <div class="list-group">
 
+                                <a href="#" class="list-group-item">Internet Services</a>
+                                <a href="#" class="list-group-item">Network Services </a>
+                                <a href="#" class="list-group-item">Voice Services </a>
+                                <a href="#" class="list-group-item">Unified Communications </a>
+                                <a href="#" class="list-group-item">Security </a>
+                                <a href="#" class="list-group-item">Mobility Services </a>
+                                <a href="#" class="list-group-item">Mobile Plans and Devices </a>
+
+
+                            </div>
                         </div>
                     </div>
+
+                    <img alt="Customized Solutions" class="img-rounded img-responsive" src="http://www.olympusattelecom.com/wp-content/uploads/2013/08/OT_EndToEndSolutions_Banner.jpg">
                 </div>
 
-                <div class="col-md-4" >
-                    <img alt="Customized Solutions" class="img-rounded img-responsive" src="http://www.olympusattelecom.com/wp-content/uploads/2013/08/OT_EndToEndSolutions_Banner.jpg">
+                <div class="col-md-offset-1 col-md4">
+                    <h1>End to End Solutions</h1>
                 </div>
             </div>
 

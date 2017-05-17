@@ -37,11 +37,6 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
             <h1>Carriers</h1>
 
             <div class="row">
-                <!-- Dont need to have to use bootstrap classes either
-                just put everything in the container fluid div
-                 you can delete the row class if you want
-                 -->
-                <div></div>
 
 
                 <div class="col-md-offset-2 col-md-4 panel panel-default">
@@ -56,17 +51,14 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                     </div>
                 </div>
 
-                <div>
-                                   </div>
 
             </div>
 
-
-
+            <div style="width: 80%">
+                <img src="images/att_solution_provider.jpg" class="img-responsive">
+            </div>
         <!-- Content Ends Here -->
     </div>
-
-
 </div> <!-- /.wrapper -->
 
 

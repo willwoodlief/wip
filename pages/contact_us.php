@@ -7,8 +7,13 @@ require_once $abs_us_root.$us_url_root.'users/includes/header_not_closed.php';
 
 <?php require_once 'includes/postit_pre.php'; // postit css linking ?>
 <style>
-    .put-page-only-styles-here {
-        /* for styles for the entire site put in users/css/custom.css */
+
+    div.method {
+        padding: 2em;
+    }
+
+    input[type="text"]:not(:focus), textarea:not(:focus) {
+        border: 2px #4d4d4d solid !important;
     }
 </style>
 
@@ -26,6 +31,10 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
 
 ?>
 
+
+
+
+
 <div id="page-wrapper" style="">
     <div class="container-fluid">
         <!-- Content Starts Here -->
@@ -34,18 +43,65 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
         <!-- Jquery is already loaded into this page, if you need it -->
 
             <!-- Page Heading -->
-            <h1>Contact Us</h1>
+            <h1 style="text-align: center">GIVE US A SHOUT</h1>
 
+        <h3 style="text-align: center">Use the form below to drop us an e-mail. Old-fashioned phone calls work too ~ 555.555.5555.</h3>
+        <br>
+        <br>
+        <form>
             <div class="row">
-                <!-- Dont need to have to use bootstrap classes either
-                just put everything in the container fluid div
-                 you can delete the row class if you want
-                 -->
-                <div>
-                    Contact Us Form
+                <div class="col-md-6 ">
+                    <div class="form-group">
+                        <input type="text" class="form-control input-lg" id="first_name" placeholder="First Name">
+                    </div>
                 </div>
-            </div>
 
+                <div class="col-md-6 ">
+                    <div class="form-group">
+                        <input type="text" class="form-control input-lg" id="last_name" placeholder="Last Name">
+                    </div>
+                </div>
+
+                <div class="col-md-6 ">
+                    <div class="form-group">
+
+                        <input type="text" class="form-control input-lg" id="email" placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="col-md-6 ">
+                    <div class="form-group">
+                        <input type="text" class="form-control input-lg" id="phone" placeholder="Phone">
+                    </div>
+                </div>
+
+                <div class="col-md-6 ">
+                    <div class="form-group">
+                        <input type="text" class="form-control input-lg" id="website" placeholder="Website">
+                    </div>
+                </div>
+
+                <div class="col-md-6 ">
+                    <div class="form-group">
+                        <input type="text" class="form-control input-lg" id="company" placeholder="Company">
+                    </div>
+                </div>
+
+                <div class="col-md-12 ">
+                    <div class="form-group">
+                        <textarea  class="form-control" id="talk input-lg" placeholder="Tell Us Whats on Your Mind" rows="8"></textarea>
+                    </div>
+                </div>
+
+                <div class="col-md-12 ">
+                    Add captcha to here
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-lg">Press Me</button>
+                    </div>
+                </div>
+
+            </div>
+        </form>
 
 
         <!-- Content Ends Here -->

@@ -10,6 +10,54 @@ require_once $abs_us_root.$us_url_root.'users/includes/header_not_closed.php';
     .put-page-only-styles-here {
         /* for styles for the entire site put in users/css/custom.css */
     }
+
+    div.bio-pic {
+        width: 10em;
+        height: 10em;
+        vertical-align:bottom;
+        float: left;
+        background-color: transparent;
+        margin-right: 0.5em ;
+        margin-bottom: 0.5em;
+        cursor: pointer;
+    }
+
+    div.bio-pic-large {
+        width: 25em;
+        height: 25em;
+        vertical-align:bottom;
+        float: left;
+        background-color: transparent;
+        margin-right: 0.5em ;
+        margin-bottom: 0.5em;
+    }
+
+    div.bio-pic img {
+
+        display: none;
+        margin: auto auto;
+    }
+
+    div.bio-pic-large img {
+        display: none;
+        margin: auto auto;
+    }
+
+    div.bio-pic div.bio-name {
+        text-align: center;
+        width: 10em;
+        font-size: 1.0em;
+        font-weight: bold;
+    }
+
+    div.detail {
+        display: none;
+    }
+
+    h1.big-title {
+        margin: 0.5em;
+        text-align: center;
+    }
 </style>
 
 </head>
@@ -27,65 +75,100 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
 ?>
 
 <div id="page-wrapper" style="">
-    <div class="container-fluid">
+    <div class="container">
         <!-- Content Starts Here -->
         <!-- For css classes add above around line 9 -->
         <!-- For javascript add stuff below where it says per-page-javascript -->
         <!-- Jquery is already loaded into this page, if you need it -->
 
             <!-- Page Heading -->
-            <h1>DStorm Family</h1>
+            <h1 class="big-title">The DStorm Family</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="bio-pic" data-about="thomas">
+                    <div class="bio-name">Thomas Marks</div>
+                    <img src="images/bio/thomas.png" class="" style="">
+                </div>
 
+                <div class="bio-pic"  data-about="randy">
+                    <div class="bio-name">Randy Lindsey</div>
+                    <img src="images/bio/randy.png" class="" style="">
+                </div>
 
-            <div class="row">
+                <div class="bio-pic"  data-about="indya">
+                    <div class="bio-name"  >Indya Rydman</div>
+                    <img src="images/bio/indya.png" class="" style="">
+                </div>
+
+                <div class="bio-pic" data-about="maria">
+                    <div class="bio-name" >Maria Marks</div>
+                    <img src="http://starchika.com/images/avatar.png" class="" style="">
+                </div>
+
+            </div>
+
                 <!-- Dont need to have to use bootstrap classes either
                 just put everything in the container fluid div
                  you can delete the row class if you want
                  -->
 
 
-
-                <div class=" col-md-8 panel panel-default">
+                <div class=" col-md-6 panel panel-default detail thomas">
                     <!-- Default panel contents -->
-                    <div class="panel-heading"> Temporarily Putting Bios here this is not what it will look like at all</div>
+                    <div class="panel-heading">Thomas Marks</div>
                     <div class="panel-body">
-
-                           <code>I will make a list with pictures and the popup text  </code>
-                        <div class="list-group">
-                            <p>
-                                Thomas Marks
-<br>
-                                I am the president and CEO of DSTORM Consulting Inc. I have over 20-years of experience in telecommunications. I held many Leadership Positions at AT&T. I am a proud Veteran of the United States Air Force. I have a Bachelor’s Degree in Marketing from the University of Houston-Clear Lake. As the President and CEO of DSTORM Consulting Inc., I am responsible for developing go to market strategies that include Staffing, Application Management, Developing Training for Operations Managers and Sales Consultants, Developing and Driving the Vendor Referral Programs, Partner Relationship Acquisition and Development, and Creating Customized Solutions for our Partners and or their customers.
-                                <br>
-                                <br>
-                                Randy Lindsey
-                                <br>
-                                I am a Senior Sales Consultant at DSTORM Consulting Inc. I have over 20-years of experience in telecommunications. I held many Technical Leadership Positions at AT&T. I have a Bachelor of Arts from Our Lady of the Lakes University. As a Senior Sales Consultant for DSTORM Consulting Inc., I am responsible for Driving the Vendor Referral Program and Relationship Acquisition and Development and Creating Customized Solutions for our Partners and or their customers.
-                                <br>
-                                <br>
-                                Indya Rydman
-                                <br>
-                                I am a Senior Sales Consultant at DSTORM Consulting Inc. I have over 18-years of experience in telecommunications. I held many Senior Sales Positions at AT&T. I have a Bachelor’s Degree in Marketing from the Lamar University. As a Senior Sales Consultant for DSTORM Consulting Inc., I am responsible for Driving the Vendor Referral Program and Relationship Acquisition and Development and Creating Customized Solutions for our Partners and or their customers.
-                                <br>
-                                <br>
-                                Jackie Gray
-                                <br>
-                                I am a Senior Operation Manager at DSTORM Consulting Inc. I have over 30 years of experience in telecommunications. I held many Operational and Sales Management Positions at AT&T. As a Senior Operation Manager for DSTORM Consulting Inc., I am responsible for Assist with creating contracts, manage orders from start to installation, and resolve billing issues.
-
-
-
-
-                            </p>
-
-
+                        <div class="bio-pic-large">
+                            <img src="images/bio/thomas.png" class="" style="">
                         </div>
+
+                        I am the president and CEO of DSTORM Consulting Inc. I have over 20-years of experience in telecommunications. I held many Leadership Positions at AT&T. I am a proud Veteran of the United States Air Force. I have a Bachelor’s Degree in Marketing from the University of Houston-Clear Lake. As the President and CEO of DSTORM Consulting Inc., I am responsible for developing go to market strategies that include Staffing, Application Management, Developing Training for Operations Managers and Sales Consultants, Developing and Driving the Vendor Referral Programs, Partner Relationship Acquisition and Development, and Creating Customized Solutions for our Partners and or their customers.
                     </div>
                 </div>
 
 
+                <div class=" col-md-6 panel panel-default detail randy">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">Randy Lindsey</div>
+                    <div class="panel-body">
+                        <div class="bio-pic-large">
+                            <img src="images/bio/randy.png" class="" style="">
+                        </div>
+
+                        I am a Senior Sales Consultant at DSTORM Consulting Inc. I have over 20-years of experience in telecommunications. I held many Technical Leadership Positions at AT&T. I have a Bachelor of Arts from Our Lady of the Lakes University. As a Senior Sales Consultant for DSTORM Consulting Inc., I am responsible for Driving the Vendor Referral Program and Relationship Acquisition and Development and Creating Customized Solutions for our Partners and or their customers.
+                    </div>
+                </div>
+
+                <div class=" col-md-6 panel panel-default detail indya">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">Indya Rydman</div>
+                    <div class="panel-body">
+                        <div class="bio-pic-large">
+                            <img src="images/bio/indya.png" class="" style="">
+                        </div>
+
+                        I am a Senior Sales Consultant at DSTORM Consulting Inc. I have over 18-years of experience in telecommunications. I held many Senior Sales Positions at AT&T. I have a Bachelor’s Degree in Marketing from the Lamar University. As a Senior Sales Consultant for DSTORM Consulting Inc., I am responsible for Driving the Vendor Referral Program and Relationship Acquisition and Development and Creating Customized Solutions for our Partners and or their customers.
+                    </div>
+                </div>
 
 
-                <div class="col-md-offset-1 col-md-2" >
+                <div class=" col-md-6 panel panel-default detail maria">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">Maria Marks</div>
+                    <div class="panel-body">
+                        <div class="bio-pic-large">
+                            <img src="" class="bio-pic" style="">
+                        </div>
+
+                        WIP
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+                <div class="col-md-offset-1 col-md-2" style="display: none" >
                     <img alt="network" class="img-rounded img-responsive" src="http://lunainc.com/wp-content/uploads/2012/08/Telecom.jpg">
                 </div>
 
@@ -115,8 +198,64 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
 
 <?php require_once 'includes/postit_romp.php'; // postit code linking ?>
 <!-- Place any per-page javascript here -->
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/resize_images.js"></script>
 <script>
 
+    function show_detail(cname) {
+
+        $('.detail').hide();
+        $('.'+ cname).show();
+    }
+
+    var rotate_this = ['thomas','randy','indya','maria'];
+    var rotate_index = 0;
+
+    function next_image() {
+        var cname = rotate_this[rotate_index++];
+        if (rotate_index >= rotate_this.length) {
+            rotate_index = 0;
+        }
+        show_detail(cname);
+    }
+
+    $(function() {
+
+        function after_all_processing_small() {
+            $('div.bio-pic img').show();
+        }
+
+        function after_all_processing_large() {
+            $('div.bio-pic-large img').show();
+            next_image();
+        }
+
+        var bcont = $('div.bio-pic').first();
+        var wh = bcont.width();
+        var resize = new ResizeImages({img_selector:'div.bio-pic img',cx:wh,cy:wh,box_model: 'contrain_inside_box',
+            all_complete_callback: after_all_processing_small});
+        resize.do_resize();
+
+         bcont = $('div.bio-pic-large').first();
+         wh = bcont.width();
+         resize = new ResizeImages({img_selector:'div.bio-pic-large  img',cx:wh,cy:wh,box_model: 'contrain_inside_box',
+            all_complete_callback: after_all_processing_large});
+         resize.do_resize();
+
+         $('.bio-pic').click(function() {
+             clearInterval(intervalId);
+             var c = $(this).data('about');
+             show_detail(c);
+
+         });
+
+         $('.detail').click(function() {
+             clearInterval(intervalId);
+         });
+
+        var intervalId = setInterval(next_image, 7000);
+
+    });
 </script>
 
 

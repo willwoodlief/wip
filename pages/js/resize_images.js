@@ -2,14 +2,14 @@
 // this will take the images and resize them, waiting until they are loaded to finish
 // img_selector , uses jquery selector to pick the images
 // box_model, options are : 'contrain_inside_box', 'fit_to_width', 'fit_to_height','none','fill'
-        // contrain_inside_box ==> all dimentions are inside the box
-        // fit_to_width ==> the width is made exactly the same as cx
-        // fit_to_height ==> the height is made exactly the same as cy
-        // none ==> nothing is done (usually used when b_grow_to_box is left on)
-        // fill => the entire image fills the box, with the overflow of width or height determiend by which gives less overflow
-                // fill automatically turns on grow by box, which since that is true by default just means a false will be overridden
+// contrain_inside_box ==> all dimentions are inside the box
+// fit_to_width ==> the width is made exactly the same as cx
+// fit_to_height ==> the height is made exactly the same as cy
+// none ==> nothing is done (usually used when b_grow_to_box is left on)
+// fill => the entire image fills the box, with the overflow of width or height determiend by which gives less overflow
+// fill automatically turns on grow by box, which since that is true by default just means a false will be overridden
 
-        //default is fill
+//default is fill
 
 // cy and cx are the size of the image to grow/shrink
 // b_grow_to_box_first, default true makes sure the image dimentions is at least as large as the box before any possible shrinking
@@ -19,7 +19,7 @@
 // b_resize_before_load_also, default true, will try to resize the images immediates, and them process the ones skipped or can wait after they are all loaded
 
 // process_image_callback is called after the image is shrunk and grown. only called for images whose dimentions have changed and only called once per now
-    // it has the signature (jq_image,img_width,img_height,cx,cy) where cx and cy are the bounding boxes
+// it has the signature (jq_image,img_width,img_height,cx,cy) where cx and cy are the bounding boxes
 
 // all_complete_callback is called after all the images are processed
 
@@ -35,8 +35,8 @@ function ResizeImages(parameters) {
         var height = jqImage.height() ? jqImage.height() :jqImage.get(0).naturalHeight;   // Current image height
 
         //call fit to width or height based on the smallest differe
-         // if the width is smallest then call fit to width
-         // if the height is smallest then call fit to height
+        // if the width is smallest then call fit to width
+        // if the height is smallest then call fit to height
 
         //this function assumes that grow to box was done if necessary
 

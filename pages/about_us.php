@@ -12,14 +12,16 @@ require_once $abs_us_root.$us_url_root.'users/includes/header_not_closed.php';
     }
 
     div.bio-pic {
+
         width: 10em;
-        height: 10em;
+        height: auto;
         vertical-align:bottom;
         float: left;
         background-color: transparent;
         margin-right: 0.5em ;
         margin-bottom: 0.5em;
         cursor: pointer;
+        text-align: center;
     }
 
     div.bio-pic-large {
@@ -36,6 +38,7 @@ require_once $abs_us_root.$us_url_root.'users/includes/header_not_closed.php';
 
         display: none;
         margin: auto auto;
+
     }
 
     div.bio-pic-large img {
@@ -92,7 +95,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
 
                 <div class="bio-pic"  data-about="randy">
                     <div class="bio-name">Randy Lindsey</div>
-                    <img src="images/bio/randy.png" class="" style="">
+                    <img src="images/bio/randy.jpg" class="" style="">
                 </div>
 
                 <div class="bio-pic"  data-about="indya">
@@ -102,7 +105,12 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
 
                 <div class="bio-pic" data-about="maria">
                     <div class="bio-name" >Maria Marks</div>
-                    <img src="http://starchika.com/images/avatar.png" class="" style="">
+                    <img src="https://starchika.com/images/avatar.png" class="" style="">
+                </div>
+
+                <div class="bio-pic" data-about="anne">
+                    <div class="bio-name" >Maria Marks</div>
+                    <img src="images/bio/anne.jpg" class="" style="">
                 </div>
 
             </div>
@@ -131,7 +139,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                     <div class="panel-heading">Randy Lindsey</div>
                     <div class="panel-body">
                         <div class="bio-pic-large">
-                            <img src="images/bio/randy.png" class="" style="">
+                            <img src="images/bio/randy.jpg" class="" style="">
                         </div>
 
                         I am a Senior Sales Consultant at DSTORM Consulting Inc. I have over 20-years of experience in telecommunications. I held many Technical Leadership Positions at AT&T. I have a Bachelor of Arts from Our Lady of the Lakes University. As a Senior Sales Consultant for DSTORM Consulting Inc., I am responsible for Driving the Vendor Referral Program and Relationship Acquisition and Development and Creating Customized Solutions for our Partners and or their customers.
@@ -156,13 +164,30 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                     <div class="panel-heading">Maria Marks</div>
                     <div class="panel-body">
                         <div class="bio-pic-large">
-                            <img src="" class="bio-pic" style="">
+                            <img src="https://starchika.com/images/avatar.png" class="bio-pic" style="">
                         </div>
-
-                        WIP
+                        I am the VP of Operations at DSTORM Consulting Inc. I have over 20-years of experience in telecommunications. I held Senior Operations and Sales Positions at AT&T. As a Senior Operations Manager for DSTORM Consulting Inc., I am responsible ensuring the orders are tracked, provisioned and installed in a timely manner. In addition I oversee customer billing and ensure the billing is accurate or take steps to correct billing issue.
                     </div>
                 </div>
-            </div>
+
+
+                <div class=" col-md-6 panel panel-default detail anne">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">Anne Malley</div>
+                    <div class="panel-body">
+                        <div class="bio-pic-large">
+                            <img src="images/bio/anne.jpg" class="bio-pic" style="">
+                        </div>
+                        I am a Senior Sales Consultant at DSTORM Consulting Inc. I have over 10-years of experience in telecommunications. I held many Senior Sales Positions at AT&T. I have a Bachelor of Business Administration from Lamar University. As a Senior Sales Consultant for DSTORM Consulting Inc., I am responsible for Driving the Vendor Referral Program and Relationship Acquisition and Development and Creating Customized Solutions for our Partners and or their customers.
+                    </div>
+                </div>
+
+
+
+
+
+
+        </div>
 
 
 
@@ -208,7 +233,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
         $('.'+ cname).show();
     }
 
-    var rotate_this = ['thomas','randy','indya','maria'];
+    var rotate_this = ['thomas','randy','indya','maria','anne'];
     var rotate_index = 0;
 
     function next_image() {

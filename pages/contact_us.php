@@ -187,16 +187,16 @@ if ($b_do_form) {
                 <?php if($settings->recaptcha == 1){ ?>
                     <div class="g-recaptcha" data-sitekey="<?=$publickey; ?>" data-theme="dark" style="margin-left: auto; margin-right: auto;"></div>
                 <?php } ?>
-        </div>
-        <div class=" col-md-6 form-group">
-            <div class="form-group" style="text-align: center;width: 100%">
-            <button type="submit" class="btn btn-primary btn-lg" style="width:304px;height: 78px;font-weight: bold;font-size: 18px ;">Press Me</button>
+            </div>
+            <div class=" col-md-6 form-group">
+                <div class="form-group" style="text-align: center;width: 100%">
+                    <button type="submit" class="btn btn-primary btn-lg" style="width:304px;height: 78px;font-weight: bold;font-size: 18px ;">Press Me</button>
+                </div>
+
+            </div>
         </div>
 
-</div>
-</div>
-
-</div>
+    </div>
 </form>
 
 <?php } else { ?>

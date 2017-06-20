@@ -45,7 +45,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                     <!-- Default panel contents -->
                     <div class="panel-heading">Military Service</div>
                     <div class="panel-body">
-                        HOMAS MARKS, president and CEO of the Dstorm Consulting Inc., is a United States Air Force Veteran serving from 1990 to 1994.
+                        THOMAS MARKS, president and CEO of the Dstorm Consulting Inc., is a United States Air Force Veteran serving from 1990 to 1994.
 
                         He was a Firefighter who specialized in Paramedic Rescue, Aviation Crash Emergency and Structural First Responser.
 

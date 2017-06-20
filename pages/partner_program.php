@@ -15,6 +15,15 @@ require_once $abs_us_root.$us_url_root.'users/includes/header_not_closed.php';
 </head>
 
 <body>
+<div id="page-wrapper" style="">
+    <div class="container-fluid">
+        <!-- Content Starts Here -->
+        <!-- For css classes add above around line 9 -->
+        <!-- For javascript add stuff below where it says per-page-javascript -->
+        <!-- Jquery is already loaded into this page, if you need it -->
+
+        <!-- Page Heading -->
+        <h1>Vendor Referral Program</h1>
 <?php
 require_once $abs_us_root.$us_url_root.'users/includes/navigation.php';
 
@@ -63,13 +72,11 @@ if (Input::exists()) {
         $reCaptchaValid=TRUE;
     }
 
-    $first_name = Input::get('first_name');
-    $last_name = Input::get('last_name');
+    $first_name = Input::get('name');
     $email = Input::get('email');
     $phone = Input::get('phone');
-    $website = Input::get('website');
-    $company = Input::get('company');
-    $talk = Input::get('talk');
+    $talk = Input::get('subject');
+
 
 
 
@@ -78,7 +85,7 @@ if (Input::exists()) {
         if ($error_message) {
             $b_do_form = true;
         } else {
-            if ( !($email || $phone || $website)) {
+            if ( !($email || $phone )) {
                 $b_do_form = true;
                 $b_error_contact = true;
                 array_push($error_message, 'Please add a way to contact us');
@@ -97,6 +104,7 @@ if (Input::exists()) {
 
     }
 }
+if ($b_do_form) {
 ?>
 
 
@@ -117,15 +125,7 @@ if (Input::exists()) {
     </div>
 <?php } ?>
 
-<div id="page-wrapper" style="">
-    <div class="container-fluid">
-        <!-- Content Starts Here -->
-        <!-- For css classes add above around line 9 -->
-        <!-- For javascript add stuff below where it says per-page-javascript -->
-        <!-- Jquery is already loaded into this page, if you need it -->
 
-            <!-- Page Heading -->
-            <h1>Vendor Referral Program</h1>
 
             <div class="row" style="margin-left: 1em">
 
@@ -152,26 +152,41 @@ if (Input::exists()) {
                         <p>or complete the information listed below and someone will contact you.</p>
 
 
-                        <form>
+                        <form action="partner_program.php" method="post">
+                            <input type="hidden" name="csrf" value="<?=Token::generate(); ?>">
+
                             <div class="form-group">
                                 <label for="inputEmail">First and Last Name</label>
-                                <input type="text" class="form-control" id="name" placeholder="Email">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
                             </div>
                             <div class="form-group">
                                 <label for="email">Your Email Address</label>
-                                <input type="text" class="form-control" id="email" placeholder="Email Address">
+                                <input type="text" class="form-control" id="email"  name="email" placeholder="Email Address">
                             </div>
 
                             <div class="form-group">
                                 <label for="phoneNumber">Phone Number</label>
-                                <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                                <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone Number">
                             </div>
 
                             <div class="form-group">
                                 <label for="message">Subject</label>
-                                <textarea class="form-control custom-control" id="message" rows="3" style=""></textarea>
+                                <textarea class="form-control custom-control" id="subject" name="subject" rows="3" style=""></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">Send Message</button>
+
+                            <div class="col-md-12 ">
+                                <div class=" col-md-6 form-group" style="">
+                                    <?php if($settings->recaptcha == 1){ ?>
+                                        <div class="g-recaptcha" data-sitekey="<?=$publickey; ?>" data-theme="dark" style="margin-left: auto; margin-right: auto;"></div>
+                                    <?php } ?>
+                                </div>
+                                <div class=" col-md-6 form-group">
+                                    <div class="form-group" style="text-align: center;width: 100%">
+                                        <button type="submit" class="btn btn-primary btn-lg" style="width:304px;height: 78px;font-weight: bold;font-size: 18px ;">Send Message</button>
+                                    </div>
+
+                                </div>
+                            </div>
                         </form>
 
                         <?php } else { ?>
@@ -184,6 +199,8 @@ if (Input::exists()) {
                                     </div>
                                 </div>
                             </div>
+
+
 
                         <?php } ?>
 
@@ -223,7 +240,18 @@ if (Input::exists()) {
 
             </div>
 
+<?php } else { ?>
 
+    <div class="col-md-offset-2 col-md-5">
+        <div class="bs-component">
+            <div class="alert alert-dismissible alert-success">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Thanks for reaching out to us !</strong> <span style="margin-left: 2em">We will contact you as soon as we can</span>
+            </div>
+        </div>
+    </div>
+
+<?php } ?>
 
         <!-- Content Ends Here -->
     </div>

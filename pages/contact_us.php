@@ -87,7 +87,10 @@ if (Input::exists()) {
     $company = Input::get('company');
     $talk = Input::get('talk');
 
+    $subject = "DSTORM Contact Us Form";
+    $body = "First Name:\t\t$first_name \nLast Name:\t\t$last_name \nEmail:\t\t$email \nPhone:\t\t$phone \nWebsite:\t\t$website \nCompany:\t\t$company \nMessage:\t\t$talk ";
 
+    email($settings->email_alert_to,$subject,$body,false,false,$settings->email_cc_alert_to);
 
     if($reCaptchaValid || $settings->recaptcha == 0){ //if recaptcha valid or recaptcha disabled
 

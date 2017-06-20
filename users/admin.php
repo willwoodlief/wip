@@ -127,6 +127,21 @@ if(!empty($_POST['settings'])){
         $db->update('settings',1,$fields);
     }
 
+    if($settings->email_cc_alert_to != $_POST['email_cc_alert_to']) {
+        $web_url = Input::get('email_cc_alert_to');
+        $fields=array('email_cc_alert_to'=>$web_url);
+        $db->update('settings',1,$fields);
+    }
+
+    if($settings->email_alert_to != $_POST['email_alert_to']) {
+        $web_url = Input::get('email_alert_to');
+        $fields=array('email_alert_to'=>$web_url);
+        $db->update('settings',1,$fields);
+    }
+
+
+
+
 	if($settings->view_timeout_seconds != $_POST['view_timeout_seconds']) {
 		$vts = intval(Input::get('view_timeout_seconds'));
 		$fields=array('view_timeout_seconds'=>$vts);
@@ -344,10 +359,17 @@ if(file_exists($abs_us_root.$us_url_root.'usersc/includes/admin_panels.php')){
                 </div>
 
 
-                <!-- s3_bucket_name  -->
+                <!-- email_alert_to  -->
                 <div class="form-group">
-                    <label for="s3_bucket_name">S3 Bucket Name</label>
-                    <input type="text" class="form-control" name="s3_bucket_name" id="s3_bucket_name" value="<?=$settings->s3_bucket_name?>">
+                    <label for="email_alert_to">Email Form Content to</label>
+                    <input type="text" class="form-control" name="email_alert_to" id="email_alert_to" value="<?=$settings->email_alert_to?>">
+                </div>
+
+
+                <!-- email_cc_alert_to  -->
+                <div class="form-group">
+                    <label for="email_cc_alert_to">CC Form Content to</label>
+                    <input type="text" class="form-control" name="email_cc_alert_to" id="email_cc_alert_to" value="<?=$settings->email_cc_alert_to?>">
                 </div>
 
 

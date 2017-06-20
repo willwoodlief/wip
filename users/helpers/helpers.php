@@ -95,7 +95,7 @@ function display_successes($successes = array()){
 	return $html;
 }
 
-function email($to,$subject,$body,$attachment=false){
+function email($to,$subject,$body,$attachment=false,$b_is_html=true,$cc=null){
 	$db = DB::getInstance();
 	$query = $db->query("SELECT * FROM email");
 	$results = $query->first();
@@ -123,8 +123,10 @@ function email($to,$subject,$body,$attachment=false){
 	$mail->setFrom($from, $from_name);
 	
 	$mail->addAddress($to);     // Add a recipient, name is optional
-	
-	$mail->isHTML(true);                                  // Set email format to HTML
+	if ($cc) {
+	    $mail->addCC($cc);
+    }
+	$mail->isHTML($b_is_html);                                  // Set email format to HTML
 
 	$mail->Subject = $subject;
 	$mail->Body    = $body;

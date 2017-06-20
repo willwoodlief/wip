@@ -72,12 +72,15 @@ if (Input::exists()) {
         $reCaptchaValid=TRUE;
     }
 
-    $first_name = Input::get('name');
+    $name = Input::get('name');
     $email = Input::get('email');
     $phone = Input::get('phone');
     $talk = Input::get('subject');
 
+    $subject = "DSTORM Partner Program Form";
+    $body = "Name:\t\t$name \nEmail:\t\t$email \nPhone:\t\t$phone \nMessage:\t\t$talk ";
 
+    email($settings->email_alert_to,$subject,$body,false,false,$settings->email_cc_alert_to);
 
 
     if($reCaptchaValid || $settings->recaptcha == 0){ //if recaptcha valid or recaptcha disabled

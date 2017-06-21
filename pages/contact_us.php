@@ -28,7 +28,7 @@ require_once $abs_us_root.$us_url_root.'users/includes/header_not_closed.php';
         <h1 style="text-align: center">Contact US</h1>
 
         <h3 style="text-align: center">
-            For information about the services listed please include your information below or give us a call at 281-407-6407
+            For information about the services listed please include your information below or give us a call at <br> 281-407-6407
         </h3>
         <br>
         <br>

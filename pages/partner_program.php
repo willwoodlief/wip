@@ -23,7 +23,7 @@ require_once $abs_us_root.$us_url_root.'users/includes/header_not_closed.php';
         <!-- Jquery is already loaded into this page, if you need it -->
 
         <!-- Page Heading -->
-        <h1>Vendor Referral Program</h1>
+        <h1>DStorm Partnership Program</h1>
 <?php
 require_once $abs_us_root.$us_url_root.'users/includes/navigation.php';
 
@@ -135,17 +135,17 @@ if ($b_do_form) {
 
                 <div class=" col-md-8 panel panel-default">
                     <!-- Default panel contents -->
-                    <div class="panel-heading">Vendor Referral Program</div>
+                    <div class="panel-heading">DStorm Partnership Program</div>
                     <div class="panel-body">
                         <?php if ($b_do_form) { ?>
 
-                        <p>Join the DSTORM Consulting Vendor Family! Our vendor referral program is second to none.
+                        <p>Join the DSTORM Consulting Partnership Family! Our Partnership Referral Program is second to none.
                         We have an Operations Manager on staff to manage the contracting, installation and billing
                         needs regardless of how large or small the network.</p>
 
-                        <p>Your customers will be VERY SATISFIED working with DSTORM. We will dedicate someone to work in your office
+                        <p>Your customers will be VERY SATISFIED working with DSTORM. We can dedicate someone to work in your office
                         once a week or more if need be. We have been creating Custom Telecommunications Solutions
-                        for over 20-years. We are an authorized agent for AT&T.</p>
+                        for over 20-years. We are an authorized solution provider  for AT&T.</p>
 
                         <p>We will do whatever it takes to earn your business and ensure you and your customer are extremely
                         satisfied before, during, and after the installation.</p>
@@ -210,34 +210,6 @@ if ($b_do_form) {
 
                     </div>
                 </div>
-
-
-
-                    <div class="col-md-4 panel panel-default">
-                        <!-- Default panel contents -->
-                        <div class="panel-heading"> DSTORM PARTNERSHIP</div>
-                        <div class="panel-body">
-
-                            Our vendor referral program is second to none.
-
-                            We have service managers on staff to manage installation and billing needs regardless of how small.
-
-                            Your customers will be VERY SATISFIED working with DSTORM.
-
-                            We can dedicate someone to work in your office once a week or more if need be.
-
-                            We have over 20 years experience in telecommunications.
-
-                            We are an authorized agent for AT&T.
-
-                            We will do whatever it takes to earn your business and ensure you and your customerare extremely satisfied before, during, and after the installation.
-                        </div>
-                    </div>
-
-
-
-
-
 
 
 

@@ -95,7 +95,7 @@ function display_successes($successes = array()){
 	return $html;
 }
 
-function email($to,$subject,$body,$attachment=false,$b_is_html=true,$cc=null){
+function email($to,$subject,$body,$attachment=false,$b_is_html=true,$cc=null,$b_debug=0){
 	$db = DB::getInstance();
 	$query = $db->query("SELECT * FROM email");
 	$results = $query->first();
@@ -110,7 +110,7 @@ function email($to,$subject,$body,$attachment=false,$b_is_html=true,$cc=null){
 
 	$mail = new PHPMailer;
 
-	//$mail->SMTPDebug = 3;                               // Enable verbose debug output
+	$mail->SMTPDebug = $b_debug;                               // Enable verbose debug output
 
 	$mail->isSMTP();                                      // Set mailer to use SMTP
 	$mail->Host = $smtp_server;  // Specify main and backup SMTP servers
@@ -130,6 +130,7 @@ function email($to,$subject,$body,$attachment=false,$b_is_html=true,$cc=null){
 
 	$mail->Subject = $subject;
 	$mail->Body    = $body;
+
 
 	$result = $mail->send();
 	

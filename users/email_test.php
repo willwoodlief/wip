@@ -37,7 +37,7 @@ if(!empty($_POST)){
 	$to = $_POST['test_acct'];
 	$subject = 'Testing Your Email Settings!';
 	$body = 'This is the body of your test email';
-	$mail_result=email($to,$subject,$body);
+	$mail_result=email($to,$subject,$body,false,true,null,4);
 }
 
 ?>

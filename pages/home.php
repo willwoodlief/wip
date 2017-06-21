@@ -160,7 +160,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                             AT&T proactively monitors your Internet access around the clock and offers
                             features to help protect your critical business applications.
                         </p>
-                        <img src="images/dedicated_internet.png">
+                        <img src="images/dedicated_internet.png" class="img-responsive">
 
                         <h2>The AT&T Dedicated Internet provides:</h2>
                         <ul>

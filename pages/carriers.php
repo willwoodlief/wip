@@ -55,7 +55,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
             </div>
 
             <div style="width: 80%">
-                <img src="images/att_solution_provider.jpg" class="img-responsive">
+                <img src="images/att_solution_provider.png" class="img-responsive">
             </div>
         <!-- Content Ends Here -->
     </div>

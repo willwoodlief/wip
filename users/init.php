@@ -64,7 +64,7 @@ $GLOBALS['config'] = array(
 //If you changed your UserSpice or UserCake database prefix
 //put it here.
 $db_table_prefix = "uc_";  //Old database prefix
-$copyright_message = "This is an unbranded App Shell for testing and development&nbsp;&nbsp;&nbsp; " .  "\xF0\x9F\x98\x81";
+$copyright_message = "2017 DSTORM";
 
 
 $your_private_key = getenv('CAPTCHA_SECRET');

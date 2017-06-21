@@ -66,6 +66,7 @@ require_once $abs_us_root.$us_url_root.'users/includes/header_not_closed.php';
 </head>
 
 <body>
+
 <?php
 require_once $abs_us_root.$us_url_root.'users/includes/navigation.php';
 
@@ -105,11 +106,11 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
 
                 <div class="bio-pic" data-about="maria">
                     <div class="bio-name" >Maria Marks</div>
-                    <img src="https://starchika.com/images/avatar.png" class="" style="">
+                    <img src="images/bio/maria.jpg"" class="" style="">
                 </div>
 
                 <div class="bio-pic" data-about="anne">
-                    <div class="bio-name" >Maria Marks</div>
+                    <div class="bio-name" >Anne Malley</div>
                     <img src="images/bio/anne.jpg" class="" style="">
                 </div>
 
@@ -164,7 +165,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                     <div class="panel-heading">Maria Marks</div>
                     <div class="panel-body">
                         <div class="bio-pic-large">
-                            <img src="https://starchika.com/images/avatar.png" class="bio-pic" style="">
+                            <img src="images/bio/maria.jpg" class="bio-pic" style="">
                         </div>
                         I am the VP of Operations at DSTORM Consulting Inc. I have over 20-years of experience in telecommunications. I held Senior Operations and Sales Positions at AT&T. As a Senior Operations Manager for DSTORM Consulting Inc., I am responsible ensuring the orders are tracked, provisioned and installed in a timely manner. In addition I oversee customer billing and ensure the billing is accurate or take steps to correct billing issue.
                     </div>

@@ -46,7 +46,7 @@ if ($settings->site_offline == 1) {
                     DSTORM Consulting is a carrier agnostic company.
 
                     As a result of being a true partner DSTORM will look at all possibilities including but not limited
-                    to AT&T for our Partners.
+                    to AT&T.
                 </p>
             </div>
         </div>

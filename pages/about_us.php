@@ -80,13 +80,8 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
 
 <div id="page-wrapper" style="">
     <div class="container">
-        <!-- Content Starts Here -->
-        <!-- For css classes add above around line 9 -->
-        <!-- For javascript add stuff below where it says per-page-javascript -->
-        <!-- Jquery is already loaded into this page, if you need it -->
 
-            <!-- Page Heading -->
-            <h1 class="big-title">The DStorm Family</h1>
+        <h1 class="big-title">The DStorm Family</h1>
         <div class="row">
             <div class="col-md-6">
                 <div class="bio-pic" data-about="thomas">
@@ -112,6 +107,20 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                 <div class="bio-pic" data-about="anne">
                     <div class="bio-name" >Anne Malley</div>
                     <img src="images/bio/anne.jpg" class="" style="">
+                </div>
+                <div style="clear: both;width: 100%;margin-bottom: 2em"></div>
+                <div class="col-md-offset-0 col-md-11 panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">Veteran Owned</div>
+                    <div class="panel-body">
+                        THOMAS MARKS, president and CEO of the Dstorm Consulting Inc., is a United States Air Force Veteran serving from 1990 to 1994.
+
+                        He was a Firefighter who specialized in Paramedic Rescue, Aviation Crash Emergency and Structural First Responser.
+
+                        His Air Force assignments included Yokota Air Base Japan from 1990 to 1992.  While at Yokota Marks was deployed to Operation Desert Storm, King Khalid Air Base Khamis Mushait, Saudi Arabia.  He was also stationed at K. I. Sawyer Air Force Base from 1992 to 1994. While at K. I. Sawyer Marks was deployed to Operation Desert Shield, Al Dhabi Air Base Mussafah, UAE 20 miles from Abu Dhabi, UAE.
+
+                        Thomas Marks was Honorably Discharged from the United States Air Force June 6, 1994.
+                    </div>
                 </div>
 
             </div>
@@ -190,32 +199,11 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
 
         </div>
 
+        <div class="row">
 
+        </div>
 
-
-
-                <div class="col-md-offset-1 col-md-2" style="display: none" >
-                    <img alt="network" class="img-rounded img-responsive" src="http://lunainc.com/wp-content/uploads/2012/08/Telecom.jpg">
-                </div>
-
-
-
-
-
-
-            </div>
-
-
-
-
-
-
-
-
-
-        <!-- Content Ends Here -->
     </div>
-
 
 </div> <!-- /.wrapper -->
 

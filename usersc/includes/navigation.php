@@ -3,63 +3,22 @@
 
 <div class="collapse navbar-collapse navbar-top-menu-collapse navbar-left"> <!-- Left navigation items -->
 	<ul class="nav navbar-nav ">
-
-        <?php if ($user->roles() && in_array("User", $user->roles())) { ?>
-            <li><a href="<?=$us_url_root?>pages/home.php"><i class="fa fa-fw fa-home"></i> Home </a></li> <!-- Common for Hamburger and Regular menus link -->
-        <?php } ?>
-
-
-        <?php if ($user->roles() && in_array("User", $user->roles())) { ?>
-            <li><a href="<?=$us_url_root?>pages/veterans.php"><i class="fa fa-fw fa-fighter-jet"></i> Veteran Owed </a></li> <!-- Common for Hamburger and Regular menus link -->
-        <?php } ?>
-
-
-
-
-        <?php if ($user->roles() && in_array("User", $user->roles())) { ?>
-            <li><a href="<?=$us_url_root?>pages/about_us.php"><i class="fa fa-fw fa-info-circle"></i> DSTORM Family </a></li> <!-- Common for Hamburger and Regular menus link -->
-        <?php } ?>
-
-        <?php if ($user->roles() && in_array("User", $user->roles())) { ?>
-            <li><a href="<?=$us_url_root?>pages/partner_program.php"><i class="fa fa-fw fa-users"></i> Vendor Referral Program </a></li> <!-- Common for Hamburger and Regular menus link -->
-        <?php } ?>
-
-        <?php if ($user->roles() && in_array("User", $user->roles())) { ?>
-            <li><a href="<?=$us_url_root?>pages/solutions.php"><i class="fa fa-fw fa-phone"></i> End to End Solutions </a></li> <!-- Common for Hamburger and Regular menus link -->
-        <?php } ?>
-
-
-        <?php if ($user->roles() && in_array("User", $user->roles())) { ?>
-            <li><a href="<?=$us_url_root?>pages/join_our_family.php"><i class="fa fa-fw fa-phone"></i> Join Our Family </a></li> <!-- Common for Hamburger and Regular menus link -->
-        <?php } ?>
+        <li><a href="<?=$us_url_root?>pages/home.php"><i class="fa fa-fw fa-home"></i>  End to End Solutions </a></li>
+        <li><a href="<?=$us_url_root?>pages/about_us.php"><i class="fa fa-fw fa-info-circle"></i> DSTORM Family </a></li>
+        <li><a href="<?=$us_url_root?>pages/partner_program.php"><i class="fa fa-fw fa-users"></i> Vendor Referral Program </a></li>
+        <li><a href="<?=$us_url_root?>pages/join_our_family.php"><i class="fa fa-fw fa-phone"></i> Join Our Family </a></li>
+        <li><a href="<?=$us_url_root?>pages/carriers.php"><i class="fa fa-fw fa-bell"></i> Carriers </a></li>
+        <li><a href="<?=$us_url_root?>pages/contact_us.php"><i class="fa fa-fw fa-envelope"></i> Contact Us </a></li>
 
 
 
 
 
-        <?php if ($user->roles() && in_array("User", $user->roles())) { ?>
-            <li><a href="<?=$us_url_root?>pages/carriers.php"><i class="fa fa-fw fa-bell"></i> Carriers </a></li> <!-- Common for Hamburger and Regular menus link -->
-        <?php } ?>
 
 
 
 
-        <?php if ($user->roles() && in_array("User", $user->roles())) { ?>
-            <li><a href="<?=$us_url_root?>pages/contact_us.php"><i class="fa fa-fw fa-envelope"></i> Contact Us </a></li> <!-- Common for Hamburger and Regular menus link -->
-        <?php } ?>
 
-
-
-        <?php if ($user->roles() && in_array("User", $user->roles())) { ?>
-            <li><a href="<?=$us_url_root?>pages/help.php"><i class="fa fa-fw fa-question-circle"></i> Help </a></li> <!-- Common for Hamburger and Regular menus link -->
-        <?php } ?>
-
-
-        <?php if ($user->roles() && in_array("User", $user->roles())) { ?>
-            <li><a  id="save-status-holder"onclick="return false;" >
-                    <span id="save-indicator" class="fa fa-fw fa-floppy-o save-status-clean" > </span>
-                </a></li> <!-- save indicator light -->
-        <?php } ?>
 
 <!-- Custom menus. Uncomment or copy/paste to use
 		<li class="dropdown"><a class="dropdown-toggle" href="" data-toggle="dropdown"><i class="fa fa-wrench"></i> Custom 1 <b class="caret"></b></a>

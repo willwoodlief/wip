@@ -43,7 +43,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                  -->
                 <div class="col-md-offset-2 col-md-4 panel panel-default">
                     <!-- Default panel contents -->
-                    <div class="panel-heading">Military Service</div>
+                    <div class="panel-heading">Veteran Owned</div>
                     <div class="panel-body">
                         THOMAS MARKS, president and CEO of the Dstorm Consulting Inc., is a United States Air Force Veteran serving from 1990 to 1994.
 

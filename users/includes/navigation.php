@@ -61,9 +61,6 @@ $email_act=$results->email_act;
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-            <?php if( is_postit_page()) {?>
-                <input class="btn btn-primary btn-lg" id="make-new-note" type="button" value="New Note">
-            <?php } ?>
 
 
 			<a class="" href="<?=$us_url_root?>"><img class="" src="<?=$us_url_root?>users/images/logo.png" alt=""  width="50" height="50" style="display: inline-block;margin-left: 10px;"/></a>
@@ -71,50 +68,48 @@ $email_act=$results->email_act;
 		</div>
 		<div class="collapse navbar-collapse navbar-top-menu-collapse navbar-right">
 			<ul class="nav navbar-nav ">
-				<?php if($user->isLoggedIn()){ //anyone is logged in?>
-					<li><a href="<?=$us_url_root?>users/account.php"><i class="fa fa-fw fa-user"></i> <?=$user->data()->username;?></a></li> <!-- Common for Hamburger and Regular menus link -->
+                <?php if (basename(dirname($_SERVER['PHP_SELF'])) == 'users') {  /* if the page is admin only*/?>
+                    <?php if($user->isLoggedIn()){ //anyone is logged in?>
+                        <li><a href="<?=$us_url_root?>users/account.php"><i class="fa fa-fw fa-user"></i> <?=$user->data()->username;?></a></li> <!-- Common for Hamburger and Regular menus link -->
 
 
 
-                  <!--  <li class="hidden-sm hidden-md hidden-lg"><a href="<?=$us_url_root?>"><i class="fa fa-fw fa-home"></i> &^ Home</a></li> --> <!-- Hamburger menu link -->
+                      <!--  <li class="hidden-sm hidden-md hidden-lg"><a href="<?=$us_url_root?>"><i class="fa fa-fw fa-home"></i> &^ Home</a></li> --> <!-- Hamburger menu link -->
 
 
 
+                        <?php if (checkMenu(2,$user->data()->id)){  //Links for permission level 2 (default admin) ?>
+                            <li class="hidden-sm hidden-md hidden-lg"><a href="<?=$us_url_root?>users/admin.php"><i class="fa fa-fw fa-cogs"></i> Admin Dashboard</a></li> <!-- Hamburger menu link -->
+                        <?php } // is user an admin ?>
+                        <li class="dropdown hidden-xs"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-fw fa-cog"></i><b class="caret"></b></a> <!-- regular user menu -->
+                            <ul class="dropdown-menu"> <!-- open tag for User dropdown menu -->
+                                <!-- <li><a href="<?=$us_url_root?>"><i class="fa fa-fw fa-home"></i> Home</a></li> --> <!-- regular user menu link -->
+                                <li><a href="<?=$us_url_root?>users/account.php"><i class="fa fa-fw fa-user"></i>  Account</a></li> <!-- regular user menu link -->
 
+                                <?php if (checkMenu(2,$user->data()->id)){  //Links for permission level 2 (default admin) ?>
+                                    <li class="divider"></li>
+                                    <li><a href="<?=$us_url_root?>users/admin.php"><i class="fa fa-fw fa-cogs"></i> Admin Dashboard</a></li> <!-- regular Admin menu link -->
+                                <?php } // is user an admin ?>
+                                <li class="divider"></li>
+                                <li><a href="<?=$us_url_root?>users/logout.php"><i class="fa fa-fw fa-sign-out"></i> <?=lang("SIGNOUT_TEXT","");?></a></li> <!-- regular Logout menu link -->
+                            </ul> <!-- close tag for User dropdown menu -->
+                        </li>
 
+                        <li class="hidden-sm hidden-md hidden-lg"><a href="<?=$us_url_root?>users/logout.php"><i class="fa fa-fw fa-sign-out"></i> <?=lang("SIGNOUT_TEXT","");?></a></li> <!-- regular Hamburger logout menu link -->
 
-
-                    <?php if (checkMenu(2,$user->data()->id)){  //Links for permission level 2 (default admin) ?>
-						<li class="hidden-sm hidden-md hidden-lg"><a href="<?=$us_url_root?>users/admin.php"><i class="fa fa-fw fa-cogs"></i> Admin Dashboard</a></li> <!-- Hamburger menu link -->
-					<?php } // is user an admin ?>
-					<li class="dropdown hidden-xs"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-fw fa-cog"></i><b class="caret"></b></a> <!-- regular user menu -->
-						<ul class="dropdown-menu"> <!-- open tag for User dropdown menu -->
-							<!-- <li><a href="<?=$us_url_root?>"><i class="fa fa-fw fa-home"></i> Home</a></li> --> <!-- regular user menu link -->
-							<li><a href="<?=$us_url_root?>users/account.php"><i class="fa fa-fw fa-user"></i>  Account</a></li> <!-- regular user menu link -->
-
-							<?php if (checkMenu(2,$user->data()->id)){  //Links for permission level 2 (default admin) ?>
-								<li class="divider"></li>
-								<li><a href="<?=$us_url_root?>users/admin.php"><i class="fa fa-fw fa-cogs"></i> Admin Dashboard</a></li> <!-- regular Admin menu link -->
-							<?php } // is user an admin ?>
-							<li class="divider"></li>
-							<li><a href="<?=$us_url_root?>users/logout.php"><i class="fa fa-fw fa-sign-out"></i> <?=lang("SIGNOUT_TEXT","");?></a></li> <!-- regular Logout menu link -->
-						</ul> <!-- close tag for User dropdown menu -->
-					</li>
-
-					<li class="hidden-sm hidden-md hidden-lg"><a href="<?=$us_url_root?>users/logout.php"><i class="fa fa-fw fa-sign-out"></i> <?=lang("SIGNOUT_TEXT","");?></a></li> <!-- regular Hamburger logout menu link -->
-
-				<?php }else{ // no one is logged in so display default items ?>
-					<li><a href="<?=$us_url_root?>users/login.php" class=""><i class="fa fa-sign-in"></i> <?=lang("SIGNIN_TEXT","");?></a></li>
-					<li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-life-ring"></i><?=lang("NAVTOP_HELPTEXT","");?> <b class="caret"></b></a>
-					<ul class="dropdown-menu">
-					<li><a href="<?=$us_url_root?>users/forgot_password.php"><i class="fa fa-wrench"></i> Forgot Password</a></li>
-					<?php if ($email_act){ //Only display following menu item if activation is enabled ?>
-					<li><a href="<?=$us_url_root?>users/verify_resend.php"><i class="fa fa-exclamation-triangle"></i> Resend Activation Email</a></li>
-					<?php }?>
-					</ul>
-					</li>
-				<?php } //end of conditional for menu display ?>
-			</ul> <!-- End of UL for navigation link list -->
+                    <?php }else{ // no one is logged in so display default items ?>
+                        <li><a href="<?=$us_url_root?>users/login.php" class=""><i class="fa fa-sign-in"></i> <?=lang("SIGNIN_TEXT","");?></a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-life-ring"></i><?=lang("NAVTOP_HELPTEXT","");?> <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        <li><a href="<?=$us_url_root?>users/forgot_password.php"><i class="fa fa-wrench"></i> Forgot Password</a></li>
+                        <?php if ($email_act){ //Only display following menu item if activation is enabled ?>
+                        <li><a href="<?=$us_url_root?>users/verify_resend.php"><i class="fa fa-exclamation-triangle"></i> Resend Activation Email</a></li>
+                        <?php }?>
+                        </ul>
+                        </li>
+                    <?php } //end of conditional for menu display ?>
+                </ul> <!-- End of UL for navigation link list -->
+            <?php } ?>
 		</div> <!-- End of Div for right side navigation list -->
 
 	<?php require_once $abs_us_root.$us_url_root.'usersc/includes/navigation.php';?>

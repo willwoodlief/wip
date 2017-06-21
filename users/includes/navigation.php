@@ -63,7 +63,10 @@ $email_act=$results->email_act;
 			</button>
 
 
-			<a class="" href="<?=$us_url_root?>"><img  src="<?=$us_url_root?>users/images/DStorm_Logo_50x50.png" alt=""  class="img-responsive" style="display: inline-block;margin-left: 10px;"/></a>
+			<a class="" href="<?=$us_url_root?>">
+              <!--  <img  src="<?=$us_url_root?>users/images/DStorm_Logo_50x50.png" alt=""  class="img-responsive" style="display: inline-block;margin-left: 10px;"/> -->
+                <img  src="<?=$us_url_root?>users/images/logo.png" alt=""  class="img-responsive" style="display: inline-block;margin-left: 10px;"/>
+            </a>
 
 		</div>
 		<div class="collapse navbar-collapse navbar-top-menu-collapse navbar-right">

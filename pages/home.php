@@ -143,7 +143,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                         </div>
                     </div>
 
-                    <img alt="Customized Solutions" class="img-rounded img-responsive" src="http://www.olympusattelecom.com/wp-content/uploads/2013/08/OT_EndToEndSolutions_Banner.jpg">
+                    <img alt="Customized Solutions" class="img-rounded img-responsive" src="" style="display: none">
                 </div>
 
                 <div class=" col-md-7 the-solutions">

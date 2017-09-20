@@ -81,37 +81,6 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
 
 
 
-            <div class="col-md-offset-1 col-md-5 panel panel-default">
-                <!-- Default panel contents -->
-                <div class="panel-heading"><h3>Operations Manager</h3></div>
-                <div class="panel-body">
-                    <div class="alert  alert-success">
-                        <strong>Houston Texas</strong>
-                    </div>
-                    <p>
-                    We are currently seeking an Operations Manager that will flourish in a challenging fast paced competitive environment.
-                    </p>
-                    <p>
-                    Area of Responsibilities: Assist with creating contracts, manage orders from start to installation,
-                    and resolve billing issues.
-                    </p>
-                    <p>
-                    Being self-starter that is focus on sales support is essential to a OMs success. An OM will have the following qualities:
-                    </p>
-                    <ul>
-                        <li>AT&T Wireline and mobility Experience is preferred but not required</li>
-                        <li>Self-Starter</li>
-                        <li>PC Proficiency including Microsoft Office is required</li>
-                        <li>Strong Work Ethic</li>
-                        <li>Business Acumen</li>
-                        <li>Positive Attitude</li>
-                        <li>Strong Organizational Skills</li>
-                    </ul>
-                    DSTORM is focused on creating a diverse environment where everyone can thrive! DSTORM is an equal Opportunity Employer. <br>
-                    Please email your resume to: <a href="mailto:thomasmarks@dstormconsulting.com">thomasmarks@dstormconsulting.com</a>
-
-                </div>
-            </div>
 
 
         </div>

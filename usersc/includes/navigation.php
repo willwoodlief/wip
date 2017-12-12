@@ -6,7 +6,7 @@
         <li><a href="<?=$us_url_root?>pages/home.php"><i class="fa fa-fw fa-home"></i> Solutions</a></li>
         <li><a href="<?=$us_url_root?>pages/about_us.php"><i class="fa fa-fw fa-info-circle"></i> DSTORM Family</a></li>
         <li><a href="<?=$us_url_root?>pages/partner_program.php"><i class="fa fa-fw fa-users"></i> DStorm Partnership</a></li>
-        <li><a href="<?=$us_url_root?>pages/join_our_family.php"><i class="fa fa-fw fa-phone"></i> Join Our Family</a></li>
+        <li><a href="<?=$us_url_root?>pages/join_our_family.php"><i class="fa fa-fw fa-phone"></i> Join the Team</a></li>
         <li><a href="<?=$us_url_root?>pages/carriers.php"><i class="fa fa-fw fa-bell"></i> Carriers</a></li>
         <li><a href="<?=$us_url_root?>pages/contact_us.php"><i class="fa fa-fw fa-envelope"></i> Contact Us</a></li>
 

@@ -139,20 +139,12 @@ if ($b_do_form) {
                     <div class="panel-body">
                         <?php if ($b_do_form) { ?>
 
-                        <p>Join the DSTORM Consulting Partnership Family! Our Partnership Referral Program is second to none.
-                        We have an Operations Manager on staff to manage the contracting, installation and billing
-                        needs regardless of how large or small the network.</p>
 
-                        <p>Your customers will be VERY SATISFIED working with DSTORM. We can dedicate someone to work in your office
-                        once a week or more if need be. We have been creating Custom Telecommunications Solutions
-                        for over 20-years. We are an authorized solution provider  for AT&T.</p>
+                            <p>Join DStorm Network, Security, and Mobility Consulting. Our Partnership Referral Program is amazing primarily because we handle everything. We ensure the customer’s service get installed and their bill is accurate.</p>
+                            <p> DStorm responds to our customers! We respond to calls and emails in a timely manner. We solve problems and provide unparalleled solutions.</p>
+                            <p>We will earn your business and ensure you and your customer are extremely satisfied before, during, and after the installation.</p>
+                            <p>To request more information please email Thomas Marks, thomas@dstromconsulting.com or complete the information listed below.</p>
 
-                        <p>We will do whatever it takes to earn your business and ensure you and your customer are extremely
-                        satisfied before, during, and after the installation.</p>
-
-                        <p>To request more information please call at 281-407-6407</p>
-
-                        <p>or complete the information listed below and someone will contact you.</p>
 
 
                         <form action="partner_program.php" method="post">

@@ -40,14 +40,16 @@ if ($settings->site_offline == 1) {
     <div class="container-fluid">
         <div class="row pheader">
             <div class="col col-md-2" style="text-align: center"><h1>Carriers</h1></div>
-            <div class="col col-md-4" style="text-align: center"><img src="images/att_solution_provider.png" class="img-responsive"></div>
-            <div class="col col-md-6">
-                <p>
-                    DSTORM Consulting is a carrier agnostic company.
+            <div class="col col-md-2" style="text-align: center;padding-top: 1.75em">
+                <img src="images/att_solution_provider.png" class="img-responsive">
+            </div>
+            <div class="col col-md-8">
+                <div style="margin-right: 3em">
+                <h3>DStorm Network, Security, and Mobility Consulting is a Master Solution Provider for AT&T.</h3>
 
-                    As a result of being a true partner DSTORM will look at all possibilities including but not limited
-                    to AT&T.
-                </p>
+                <h4> DStorm Consulting also offers solutions for the following companies:</h4>
+
+                </div>
             </div>
         </div>
 

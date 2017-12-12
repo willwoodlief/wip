@@ -28,7 +28,7 @@ require_once $abs_us_root.$us_url_root.'users/includes/header_not_closed.php';
         <h1 style="text-align: center">Contact US</h1>
 
         <h3 style="text-align: center">
-            For information about the services listed please include your information below or give us a call at <br> 281-407-6407
+            For information about the services listed please include your information below and select submit
         </h3>
         <br>
         <br>
@@ -193,7 +193,7 @@ if ($b_do_form) {
             </div>
             <div class=" col-md-6 form-group">
                 <div class="form-group" style="text-align: center;width: 100%">
-                    <button type="submit" class="btn btn-primary btn-lg" style="width:304px;height: 78px;font-weight: bold;font-size: 18px ;">Press Me</button>
+                    <button type="submit" class="btn btn-primary btn-lg" style="width:304px;height: 78px;font-weight: bold;font-size: 18px ;">Submit</button>
                 </div>
 
             </div>

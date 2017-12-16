@@ -23,7 +23,7 @@ require_once 'init.php';
 if(isset($user) && $user->isLoggedIn()){
   Redirect::to($us_url_root.'users/admin.php');
 }else{
-  Redirect::to($us_url_root.'pages/home.php');
+  Redirect::to($us_url_root.'pages/about_us.php');
 }
 die();
 ?>

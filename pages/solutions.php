@@ -120,10 +120,9 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                  -->
 
                 <div class="col-md-offset-1 col-md-4">
-                    <h1>End to End Solutions</h1>
                     <div class="panel panel-default">
                         <!-- Default panel contents -->
-                        <div class="panel-heading">Our Services</div>
+                        <div class="panel-heading">DStorm Network, Security and Mobility Services</div>
                         <div class="panel-body">
 
                             <div class="list-group">

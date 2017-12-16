@@ -3,8 +3,9 @@
 
 <div class="collapse navbar-collapse navbar-top-menu-collapse navbar-left"> <!-- Left navigation items -->
 	<ul class="nav navbar-nav ">
-        <li><a href="<?=$us_url_root?>pages/home.php"><i class="fa fa-fw fa-home"></i> Solutions</a></li>
-        <li><a href="<?=$us_url_root?>pages/about_us.php"><i class="fa fa-fw fa-info-circle"></i> DSTORM Family</a></li>
+        <li><a href="<?=$us_url_root?>pages/about_us.php"><i class="fa fa-fw fa-home"></i> About Us</a></li>
+        <li><a href="<?=$us_url_root?>pages/solutions.php"><i class="fa fa-fw fa-check"></i> Solutions</a></li>
+        <li><a href="<?=$us_url_root?>pages/the_dstorm_team.php"><i class="fa fa-fw fa-info-circle"></i> DSTORM Team</a></li>
         <li><a href="<?=$us_url_root?>pages/partner_program.php"><i class="fa fa-fw fa-users"></i> DStorm Partnership</a></li>
         <li><a href="<?=$us_url_root?>pages/join_our_family.php"><i class="fa fa-fw fa-phone"></i> Join the Team</a></li>
         <li><a href="<?=$us_url_root?>pages/carriers.php"><i class="fa fa-fw fa-bell"></i> Carriers</a></li>

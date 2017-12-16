@@ -21,9 +21,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 <?php
 
 if(isset($user) && $user->isLoggedIn()){
-    header('Location: '.'users/admin.php');
+    header('Location: '.'users/about_us.php');
 }else{
-    header('Location: '.'pages/home.php');
+    header('Location: '.'pages/about_us.php');
 }
 die();
 ?>

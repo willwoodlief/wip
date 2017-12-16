@@ -103,10 +103,6 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
 <?php require_once $abs_us_root.$us_url_root.'users/includes/html_footer.php'; // currently just the closing /body and /html ?>
 
 
-<div class="col-md-offset-1 col-md-5 panel panel-default">
-<!-- Default panel contents -->
-<div class="panel-heading"><h3>Appointment Setter</h3></div>
-<div class="panel-body">
 
 
 

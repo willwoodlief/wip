@@ -175,9 +175,10 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                         <div class="bio-pic-large">
                             <img src="images/bio/maria.jpg" class="bio-pic" style="">
                         </div>
-                        After working at AT&T for 19 Years as a Service Manager and Account Manager Regional Sales Manager and a Global Account Manager Maria joined DStorm Network,
-                        Security and Mobility Consulting. As the Operations Manager she is responsible for ensuring the orders are tracked,
-                        provisioned and installed in a timely manner. In addition, She oversees customer billing and ensures the billing is accurate by taking any steps needed to correct billing issues.
+                        After working at AT&T for 19 Years as a Service Manager and Account Manager,
+                        Maria joined DStorm Network, Security and Mobility Consulting.
+                        As the Operations Manager she is responsible for ensuring the orders are tracked, provisioned and installed in a timely manner.
+                        In addition, she oversees customer billing and ensures the billing is accurate by taking any steps needed to correct billing issues.
                     </div>
                 </div>
 
@@ -189,8 +190,11 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                         <div class="bio-pic-large">
                             <img src="images/bio/anne.jpg" class="bio-pic" style="">
                         </div>
-                        After working at AT&T for 5 years as an Account Manager Anne accepted joined DStorm Network, Security and Mobility Consulting.
-                        As a Senior Sales Consultant she is responsible for managing and creating new vendor relationships and acquiring new partners.
+                        After working at AT&T for 5 years as an Account Manager Anne accepted joined DStorm Network,
+                        Security and Mobility Consulting.
+                        As a Senior Sales Consultant she is responsible for managing and creating new vendor
+                        relationships and acquiring new partners.
+                        <br> <br>
                         Anne has a Bachelor of Business Administration from Lamar University.
                     </div>
                 </div>

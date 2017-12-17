@@ -41,7 +41,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                         <li>Our president gained invaluable experience at AT&T as a Sales Manager and Global Account Manager for 18 years</li>
                         <li>Understanding the AT&T Culture is crucial when creating and executing an AT&T Customized Solution</li>
                         <li>Our Operations Manager was a Service Manager and Account Manager with AT&T for 19 Years</li>
-                        <li>Maria understands the dozens of systems that enables her to stay on top of customer circuit installs and billing</li>
+                        <li>Our Operations Manager understands the dozens of systems that enables her to stay on top of customer circuit installs and billing</li>
                     </ul>
 
                     <h2>Need your AT&T Service installed and billed correctly, and any AT&T billing issues resolved?</h2>
@@ -52,7 +52,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                     <h2>Want internet? <span style="font-size: smaller;">(in qualifying buildings)</span></h2>
                     <ul>
                         <li>25/5Mbps to 1Gbps of Internet on AT&T Business Fiber</li>
-                        <li>*For a quick quote please click on the <a href="contact_us.php">Contact US Tab</a> and submit request</li>
+                        <li style="list-style-type: none;"> <span>&#10033;</span> For a quick quote please click on the <a href="contact_us.php">Contact US</a> and submit request</li>
                     </ul>
 
                     <h2>Need a Network?</h2>
@@ -60,16 +60,16 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                         <li>Network on Demand (Point-to-Point Service) – change the network speeds up or down 2Mbps to 1000Mbps daily if you want. This can be installed in as little as 7 days</li>
                         <li>SD-WAN – Layer SD-WAN on a dedicated internet solution. You can also add wireless backup to mitigate down time</li>
                         <li>MPLS – this can also be an affordable solution. This includes up to 6 layers of CoS to manage both voice and application prioritization. You can also add wireless backup to mitigate down time</li>
-                        <li>*For a free network analysis please click on the Contact US Tab and submit request</li>
+                        <li style="list-style-type: none;"> <span>&#10033;</span> For a free network analysis please click on the <a href="contact_us.php">Contact US</a>  and submit request</li>
                     </ul>
                 </div>
             </div>
 
             <div class="col-md-4 panel panel-default">
                 <div class="panel-heading"><h3>Who We Are</h3></div>
-                <div class="panel-body">
+                <div class="panel-body" style="padding-top: 2em">
                     <p>
-                        Thomas Marks, president and CEO of the DStorm Network, Security and Mobility Consulting, is a United States Air Force Veteran serving from 1990 to 1994.
+                        Thomas Marks, president and CEO of the DStorm Network, Security and Mobility Consulting, is a United States Air Force Veteran that served from 1990 to 1994.
                     </p>
 
                     <p>
@@ -79,8 +79,10 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
 
                     <p>
                         DStorm Consulting is a Master Solution Provider for AT&T.
-                        DStorm has a sound working knowledge of Networks, Security and Mobility that enables us to develop Secure Networks with
-                        Wireless back up to ensure they stay connected. DStorm partners with most vendors to ensure we offer a True Turn Key Solution.
+                        DStorm has a sound working knowledge of Networks, Security and Mobility that enables us to develop
+                        Secure Custom Networks based on the customer’s needs and applications.
+                        We always include Wireless Back-up to ensure our customers stay connected.
+                        DStorm partners with most vendors to ensure we offer a True Turn Key Solution.
                     </p>
 
                     <p>

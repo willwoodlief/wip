@@ -41,7 +41,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
             just put everything in the container fluid div
              you can delete the row class if you want
              -->
-            <h1>Current Availably: <span style="font-size: smaller;text-transform: uppercase"> Join the DStorm Team</span></h1>
+            <h1 style="padding-left: 3em">Current Availably: <span style="font-size: smaller"> Join the DStorm Team</span></h1>
 
             <div class="col-md-offset-1 col-md-5 panel panel-default">
                 <!-- Default panel contents -->
@@ -59,13 +59,17 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
 
                     <table>
                         <tr>
+                            <td>Part-Time and Full-Time Positions available</td>
+                            <td></td>
+                        </tr>
+                        <tr>
                             <td>Job Category:</td>
                             <td style="padding-left: 6em">Administrative Support</td>
                         </tr>
 
                         <tr>
                             <td>Salary Range:</td>
-                            <td style="padding-left: 6em">12 /hr</td>
+                            <td style="padding-left: 6em">$12 to $18 / hour</td>
                         </tr>
 
                         <tr>

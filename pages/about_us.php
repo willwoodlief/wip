@@ -68,27 +68,11 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
             <div class="col-md-4 panel panel-default">
                 <div class="panel-heading"><h3>Who We Are</h3></div>
                 <div class="panel-body" style="padding-top: 2em">
-                    <p>
-                        Thomas Marks, president and CEO of the DStorm Network, Security and Mobility Consulting, is a United States Air Force Veteran that served from 1990 to 1994.
-                    </p>
+                    <p>After working and gaining invaluable experience at AT&T for 18 Years as a Regional Sales Manager and a Global Account Manager, Thomas Marks launched DStorm Network, Security and Mobility Consulting.</p>
 
-                    <p>
-                        After working and gaining invaluable experience at AT&T for 18 Years as a Regional Sales Manager and a Global Account Manager,
-                        Thomas Marks launched DStorm Network, Security and Mobility Consulting.
-                    </p>
+                    <p>DStorm Consulting is a Master Solution Provider for AT&T. DStorm has a sound working knowledge of Networks, Security and Mobility that enables us to develop Secure Networks with Wireless back up to ensure they stay connected. DStorm partners with most vendors to ensure we offer a True Turn Key Solution.</p>
 
-                    <p>
-                        DStorm Consulting is a Master Solution Provider for AT&T.
-                        DStorm has a sound working knowledge of Networks, Security and Mobility that enables us to develop
-                        Secure Custom Networks based on the customer’s needs and applications.
-                        We always include Wireless Back-up to ensure our customers stay connected.
-                        DStorm partners with most vendors to ensure we offer a True Turn Key Solution.
-                    </p>
-
-                    <p>
-                        We offer our customers and partners unparalleled support. We ensure circuits are installed in a timely manner.
-                        We also follow up after the circuits start billing and scrub for accuracy.
-                    </p>
+                    <p>We offer our customers and partners unparalleled support. We ensure circuits are installed in a timely manner. We also follow up after the circuits start billing and scrub for accuracy.</p>
                 </div>
             </div>
         </div>

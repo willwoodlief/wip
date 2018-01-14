@@ -23,7 +23,7 @@ require_once $abs_us_root.$us_url_root.'users/includes/header_not_closed.php';
 
         /*padding-top: -100px;*/
         border-radius: 1em;
-        background-color: #1f4679;    /*#4286df;4ADFCC*/
+        background-color: #2e4058 ;    /* #1f4679;#4286df;4ADFCC*/
         margin-top: 0;
         color:white;
         width: 95%;

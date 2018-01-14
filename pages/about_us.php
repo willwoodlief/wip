@@ -75,7 +75,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
     <div class="container">
         <div class="row">
             <div class="col-md-6 same-height ">
-                <div class=" panel panel-default  same-height-panels">
+                <div class=" panel panel-default  ">
 
                     <div class="panel-body">
                         <ul class="nav nav-stacked" id="accordion1">
@@ -134,7 +134,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
             </div>
 
             <div class="col-md-3 same-height">
-                <div class=" panel panel-default same-height-panels">
+                <div class=" panel panel-default ">
                     <div class="panel-heading"><h3>About Our Company</h3></div>
                     <div class="panel-body" style="padding-top: 2em">
                         <p>After working and gaining invaluable experience at AT&T for 18 Years as a Regional Sales Manager and a Global Account Manager, Thomas Marks launched DStorm Network, Security and Mobility Consulting.</p>

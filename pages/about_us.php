@@ -74,60 +74,62 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
 <div id="page-wrapper" style="margin-top: 4em">
     <div class="container">
         <div class="row">
-            <div class="col-md-6  panel panel-default">
+            <div class="col-md-6 same-height ">
+                <div class=" panel panel-default  same-height-panels">
 
-                <div class="panel-body">
-                    <ul class="nav nav-stacked" id="accordion1">
-                        <li class="panel ">
-                            <a data-toggle="collapse" data-parent="#accordion1" href="#firstLink">
-                                <h2>Why DStorm Network, Security and Mobility Consulting? </h2>
-                            </a>
-                            <ul id="firstLink" class="collapse">
-                                <li >DSTORM Consulting is an AT&T Master Solution Provider</li>
-                                <li>Our president gained invaluable experience at AT&T as a Sales Manager and Global Account Manager for 18 years</li>
-                                <li>Understanding the AT&T Culture is crucial when creating and executing an AT&T Customized Solution</li>
-                                <li>Our Operations Manager was a Service Manager and Account Manager with AT&T for 19 Years</li>
-                                <li>Our Operations Manager understands the dozens of systems that enables her to stay on top of customer circuit installs and billing</li>
-                            </ul>
-                        </li>
+                    <div class="panel-body">
+                        <ul class="nav nav-stacked" id="accordion1">
+                            <li class="panel ">
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#firstLink">
+                                    <h2>Why DStorm Network, Security and Mobility Consulting? </h2>
+                                </a>
+                                <ul id="firstLink" class="collapse">
+                                    <li >DSTORM Consulting is an AT&T Master Solution Provider</li>
+                                    <li>Our president gained invaluable experience at AT&T as a Sales Manager and Global Account Manager for 18 years</li>
+                                    <li>Understanding the AT&T Culture is crucial when creating and executing an AT&T Customized Solution</li>
+                                    <li>Our Operations Manager was a Service Manager and Account Manager with AT&T for 19 Years</li>
+                                    <li>Our Operations Manager understands the dozens of systems that enables her to stay on top of customer circuit installs and billing</li>
+                                </ul>
+                            </li>
 
-                        <li class="panel">
-                            <a data-toggle="collapse" data-parent="#accordion1" href="#secondLink">
-                                <h2>Need your AT&T Service installed and billed correctly, and any AT&T billing issues resolved?</h2>
-                            </a>
+                            <li class="panel">
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#secondLink">
+                                    <h2>Need your AT&T Service installed and billed correctly, and any AT&T billing issues resolved?</h2>
+                                </a>
 
-                            <ul id="secondLink" class="collapse">
-                                <li>Nobody understands AT&T Billing and Systems better than our operations team </li>
-                            </ul>
-                        </li>
+                                <ul id="secondLink" class="collapse">
+                                    <li>Nobody understands AT&T Billing and Systems better than our operations team </li>
+                                </ul>
+                            </li>
 
-                        <li class="panel">
-                            <a data-toggle="collapse" data-parent="#accordion1" href="#thirdLink">
-                                <h2>Want internet? <span style="font-size: smaller;">(in qualifying buildings)</span></h2>
-                            </a>
+                            <li class="panel">
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#thirdLink">
+                                    <h2>Want internet? <span style="font-size: smaller;">(in qualifying buildings)</span></h2>
+                                </a>
 
-                            <ul id="thirdLink" class="collapse">
-                                <li>25/5Mbps to 1Gbps of Internet on AT&T Business Fiber</li>
-                                <li style="list-style-type: none;"> <span>&#10033;</span> For a quick quote please click on the <a href="contact_us.php">Contact US</a> and submit request</li>
+                                <ul id="thirdLink" class="collapse">
+                                    <li>25/5Mbps to 1Gbps of Internet on AT&T Business Fiber</li>
+                                    <li style="list-style-type: none;"> <span>&#10033;</span> For a quick quote please click on the <a href="contact_us.php">Contact US</a> and submit request</li>
 
-                            </ul>
-                        </li>
+                                </ul>
+                            </li>
 
-                        <li class="panel">
-                            <a data-toggle="collapse" data-parent="#accordion1" href="#fourthLink">
-                                <h2>Need a Network?</h2>
-                            </a>
+                            <li class="panel">
+                                <a data-toggle="collapse" data-parent="#accordion1" href="#fourthLink">
+                                    <h2>Need a Network?</h2>
+                                </a>
 
-                            <ul id="fourthLink" class="collapse">
-                                <li>Network on Demand (Point-to-Point Service) – change the network speeds up or down 2Mbps to 1000Mbps daily if you want. This can be installed in as little as 7 days</li>
-                                <li>SD-WAN – Layer SD-WAN on a dedicated internet solution. You can also add wireless backup to mitigate down time</li>
-                                <li>MPLS – this can also be an affordable solution. This includes up to 6 layers of CoS to manage both voice and application prioritization. You can also add wireless backup to mitigate down time</li>
-                                <li style="list-style-type: none;"> <span>&#10033;</span> For a free network analysis please click on the <a href="contact_us.php">Contact US</a>  and submit request</li>
+                                <ul id="fourthLink" class="collapse">
+                                    <li>Network on Demand (Point-to-Point Service) – change the network speeds up or down 2Mbps to 1000Mbps daily if you want. This can be installed in as little as 7 days</li>
+                                    <li>SD-WAN – Layer SD-WAN on a dedicated internet solution. You can also add wireless backup to mitigate down time</li>
+                                    <li>MPLS – this can also be an affordable solution. This includes up to 6 layers of CoS to manage both voice and application prioritization. You can also add wireless backup to mitigate down time</li>
+                                    <li style="list-style-type: none;"> <span>&#10033;</span> For a free network analysis please click on the <a href="contact_us.php">Contact US</a>  and submit request</li>
 
-                            </ul>
-                        </li>
-                    </ul>
+                                </ul>
+                            </li>
+                        </ul>
 
+                    </div>
                 </div>
             </div>
 

@@ -86,7 +86,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
             <div class="col-md-6">
                 <div class="bio-pic" data-about="thomas">
                     <div class="bio-name">Thomas Marks</div>
-                    <img src="images/bio/thomas.jpg" class="" style="">
+                    <img src="images/bio/thomas-jan-29.jpg" class="" style="">
                 </div>
 
                 <div class="bio-pic"  data-about="randy">
@@ -130,7 +130,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                     <div class="panel-heading">Thomas Marks</div>
                     <div class="panel-body" style="clear: both">
                         <div class="bio-pic-large" style="margin-bottom: 1em">
-                            <img src="images/bio/thomas.jpg" class="" style=" ">
+                            <img src="images/bio/thomas-jan-29.jpg" class="" style=" ">
                         </div>
                         <div>
                         <p style="">

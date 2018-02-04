@@ -108,6 +108,18 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                     <div class="bio-name" >Anne Malley</div>
                     <img src="images/bio/anne.jpg" class="" style="">
                 </div>
+
+                <div class="bio-pic" data-about="michael">
+                    <div class="bio-name" >Michael Restrepo</div>
+                    <img src="images/bio/michael_restrepo.jpg" class="" style="">
+                </div>
+
+                <div class="bio-pic" data-about="adrianna">
+                    <div class="bio-name" >Adrianna Mosley</div>
+                    <img src="images/bio/adrianna_mosley.jpg" class="" style="">
+                </div>
+
+
                 <div style="clear: both;width: 100%;margin-bottom: 2em"></div>
                 <div class="col-md-offset-0 col-md-11 panel panel-default">
                     <!-- Default panel contents -->
@@ -199,6 +211,38 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                     </div>
                 </div>
 
+<!--new divs-->
+            <div class=" col-md-6 panel panel-default detail michael">
+                <!-- Default panel contents -->
+                <div class="panel-heading">Michael Restrepo</div>
+                <div class="panel-body">
+                    <div class="bio-pic-large">
+                        <img src="images/bio/michael_restrepo.jpg" class="bio-pic" style="">
+                    </div>
+                    After working as an IT Consultant for 10 Years, Michael has decided to join DStorm Network, Security and
+                    Mobility Consulting. As a Sales Engineer, he is responsible for Designing Complex Customer Solutions,
+                    Configuring Servers, LAN and WAN Configurations, Cable Drops, Router and Switch Installations.
+                    <br><br>
+                    Michael has a Bachelors Degree in Systems Engineering from the University of Santa Maria La Antigua.
+                </div>
+            </div>
+
+
+            <div class=" col-md-6 panel panel-default detail adrianna">
+                <!-- Default panel contents -->
+                <div class="panel-heading">Adrianna Mosley</div>
+                <div class="panel-body">
+                    <div class="bio-pic-large">
+                        <img src="images/bio/adrianna_mosley.jpg" class="bio-pic" style="">
+                    </div>
+                    After working as an Account Manager and Sales Coordinator for 9 years, Adrianna decided to join DStorm
+                    Network, Security and Mobility Consulting. As a Communications Consultant, she is responsible for setting
+                    appointments, driving external relationships, managing installations, and other administrative duties.
+                    <br> <br>
+                    Adrianna has a Bachelor of Business Administration from Belhaven University.
+                </div>
+            </div>
+
 
 
 
@@ -229,7 +273,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
         $('.'+ cname).show();
     }
 
-    var rotate_this = ['thomas','randy','indya','maria','anne'];
+    var rotate_this = ['thomas','randy','indya','maria','anne','michael','adrianna'];
     var rotate_index = 0;
 
     function next_image() {

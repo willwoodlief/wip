@@ -45,7 +45,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
 
             <div class="col-md-offset-1 col-md-5 panel panel-default">
                 <!-- Default panel contents -->
-                <div class="panel-heading"><h3>Appointment Setter</h3></div>
+                <div class="panel-heading"><h3>Communications Consultant</h3></div>
                 <div class="panel-body">
                     <div class="alert  alert-success">
                         <strong>Katy Texas</strong>
@@ -59,21 +59,21 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
 
                     <table>
                         <tr>
-                            <td>Part-Time and Full-Time Positions available</td>
+                            <td><span style="font-weight: bold"> Part-Time and Full-Time Positions available</span></td>
                             <td></td>
                         </tr>
-                        <tr>
-                            <td>Job Category:</td>
-                            <td style="padding-left: 6em">Administrative Support</td>
-                        </tr>
+<!--                        <tr>-->
+<!--                            <td>Job Category:</td>-->
+<!--                            <td style="padding-left: 6em">Administrative Support</td>-->
+<!--                        </tr>-->
 
                         <tr>
-                            <td>Salary Range:</td>
-                            <td style="padding-left: 6em">$12 to $18 / hour</td>
+                            <td><span style="font-weight: bold">Salary Range:</span></td>
+                            <td style="padding-left: 6em"><span style="text-decoration: underline ">$10 to $15 / hour</span></td>
                         </tr>
 
-                        <tr>
-                            <td style="vertical-align:top">Location:</td>
+                        <tr style=" ">
+                            <td style="vertical-align:top"><span style="font-weight: bold">Location:</span></td>
                             <td style="padding-left: 6em">
                                 <table>
                                     <tr>
@@ -103,13 +103,18 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
 
 
 
-                    <p style="margin-top: 1em">The job duties will include but are not limited to:</p>
+                    <p style="margin-top: 1em">The job duties will include:</p>
                     <ul>
-                        <li>Call customers and set appointments for Network Consultants</li>
-                        <li>Track customer information</li>
-                        <li>Manage and update customer contact information</li>
-                        <li>Assist with administrative duties</li>
+                        <li>Call customers from our database, reading a script and setting appointments for Network Consultants</li>
+                        <li>Tracking customer information</li>
+                        <li>Managing Appointments by sending calendar invites to customers and network consultants, following up with the customer 24-hours before the appointment and sending the customer information</li>
+                        <li>Managing customer installs by keeping up with circuit install dates and customer billing ensuring circuits get installed and billed in a timely manner</li>
+                        <li>Resolving billing issues for customers</li>
+                        <li>Manage External Partnerships</li>
                     </ul>
+
+
+
 
 
                     <p style="margin-top: 1em ">

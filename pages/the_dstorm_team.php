@@ -220,7 +220,7 @@ if ($settings->site_offline==1){die("The site is currently offline.");}
                         <img src="images/bio/michael_restrepo.jpg" class="bio-pic" style="">
                     </div>
                     After working as an IT Consultant for 10 Years, Michael has decided to join DStorm Network, Security and
-                    Mobility Consulting. As a Sales Engineer, he is responsible for Designing Complex Customer Solutions,
+                    Mobility Consulting. As a Sales Consultant, he is responsible for Designing Complex Customer Solutions,
                     Configuring Servers, LAN and WAN Configurations, Cable Drops, Router and Switch Installations.
                     <br><br>
                     Michael has a Bachelors Degree in Systems Engineering from the University of Santa Maria La Antigua.
